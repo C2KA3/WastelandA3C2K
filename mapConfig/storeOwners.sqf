@@ -15,6 +15,7 @@ storeOwnerConfig = compileFinal str
 	["GenStore3", 6, 45, []],
 	["GenStore4", 0, 265, []],
 	["GenStore5", 5, 350, []],
+	["GenStore6", 6, 310, []], // Novo Molos
 
 	["GunStore1", 1, 0, []],
 	["GunStore2", 1, 75, []],
@@ -39,6 +40,7 @@ storeOwnerConfigAppearance = compileFinal str
 	["GenStore3", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
 	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla2_1"]]],
 	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla3_2"]]],
+	["GenStore6", [["weapon", ""], ["uniform", "U_IG_Guerilla2_1"]]],
 
 	["GunStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],
