@@ -650,10 +650,6 @@ vestArray = compileFinal str
 	["Carrier GL Rig (Black)", "V_PlateCarrierGL_blk", 3000, "vest"],
 	["Carrier GL Rig (MTP)", "V_PlateCarrierGL_mtp", 3000, "vest"],
 	["Carrier GL Rig (Tropic)", "V_PlateCarrierGL_tna_F", 3000, "vest", "noDLC"],
-	["Carrier Special Rig (Green)", "V_PlateCarrierSpec_rgr", 4500, "vest"],
-	["Carrier Special Rig (Black)", "V_PlateCarrierSpec_blk", 4500, "vest"],
-	["Carrier Special Rig (MTP)", "V_PlateCarrierSpec_mtp", 4500, "vest"],
-	["Carrier Special Rig (Tropic)", "V_PlateCarrierSpec_tna_F", 4500, "vest", "noDLC"],
 	["GA Carrier Lite (Digi)", "V_PlateCarrierIA1_dgtl", 5000, "vest"],
 	["GA Carrier Rig (Digi)", "V_PlateCarrierIA2_dgtl", 5000, "vest"],
 	["GA Carrier GL Rig (Digi)", "V_PlateCarrierIAGL_dgtl", 5000, "vest"],
@@ -687,6 +683,10 @@ vestArray = compileFinal str
 	["Tactical Vest (Olive)", "V_TacVest_oli", -1, "vest"],
 	["Tactical Vest (Police)", "V_TacVest_blk_POLICE", 3000, "vest"],
 	["Raven Night Vest", "V_TacVestIR_blk", -1, "vest"],
+	["Carrier Special Rig (Green)", "V_PlateCarrierSpec_rgr", 8500, "vest"],
+	["Carrier Special Rig (Black)", "V_PlateCarrierSpec_blk", 8500, "vest"],
+	["Carrier Special Rig (MTP)", "V_PlateCarrierSpec_mtp", 8500, "vest"],
+	["Carrier Special Rig (Tropic)", "V_PlateCarrierSpec_tna_F", 8500, "vest", "noDLC"],
 	["Press Vest", "V_Press_F", -1, "vest"]
 ];
 
