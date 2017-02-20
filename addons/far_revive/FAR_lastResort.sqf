@@ -23,7 +23,7 @@ if !(player getVariable ["performingDuty", false]) then
 			titleText [format ["ERROR: invalid class '%1'", _mineType], "PLAIN", 0.5];
 		};
 
-		if (["Perform your duty?", "", "Yes", "No"] call BIS_fnc_guiMessage) then
+		if (["Executar o seu dever?", "", "Yes", "No"] call BIS_fnc_guiMessage) then
 		{
 			player setVariable ["performingDuty", true];
 
@@ -60,6 +60,6 @@ if !(player getVariable ["performingDuty", false]) then
 	}
 	else
 	{
-		titleText ["Get an explosive charge next time, my child.", "PLAIN", 0.5];
+		titleText ["Obter uma carga explosiva na próxima vez, meu filho.", "PLAIN", 0.5];
 	};
 };
