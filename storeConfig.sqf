@@ -101,7 +101,7 @@ rifleArray = compileFinal str
 
 	["Mk14 Rifle (Olive)", "srifle_DMR_06_olive_F", 5000],
 	["Mk14 Rifle (Camo)", "srifle_DMR_06_camo_F", 5000],
-	["Mk-I EMR Rifle", "srifle_DMR_03_F", 500],
+	["Mk-I EMR Rifle", "srifle_DMR_03_F", 5000],
 	["Mk-I EMR Rifle (Camo)", "srifle_DMR_03_multicam_F", 5000],
 	["Mk-I EMR Rifle (Khaki)", "srifle_DMR_03_khaki_F", 5000],
 	["Mk-I EMR Rifle (Sand)", "srifle_DMR_03_tan_F", 5000],
