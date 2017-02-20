@@ -10,6 +10,8 @@ client_firstSpawn = true;
 
 //[] execVM "client\functions\welcomeMessage.sqf";
 
+createDialog'RscDisplayServerInfoMenu';
+
 [] execVM "addons\InfoPage\infoPage.sqf";
 
 player addEventHandler ["Take",
