@@ -33,7 +33,7 @@ class CfgServerInfoMenu
          menuName = "Missões";
          title = "<t color='#ffffff'>Missões do Servidor</t>";
          content[] = {
-            "<br/>• Small Money Shipment: $150,000<br />• Medium Money Shipment: $175,000<br />• Large Money Shipment: $200,000<br />• Heavy Money Shipment: $350,000<br />• Sunken Treasure: $200,000<br />• Anonymous Hackers: $250000, $300000, $350000, $400000, $450000, $500000, $700000, $800000, $1000000<br /></p>"
+            "<br/>• Small Money Shipment: $150,000<br />• Medium Money Shipment: $175,000<br />• Large Money Shipment: $200,000<br />• Heavy Money Shipment: $350,000<br />• Sunken Treasure: $200,000<br /></p>"
          };
       };
       class third
@@ -68,7 +68,7 @@ class CfgServerInfoMenu
          menuName = "Atualizações";
          title = "GitHub do C2K";
          content[] = {
-            "GitHub: <t color='#0091CD'><a href='https://github.com/C2KA3/WastelandC2K/commits/master'>github.com/C2KA3/WastelandC2K<br/></a></t>"
+            "GitHub: <t color='#0091CD'><a href='https://github.com/C2KA3/WastelandA3C2K/commits/master'>github.com/C2KA3/WastelandA3C2K<br/></a></t>"
          };
       };
    };
