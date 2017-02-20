@@ -33,7 +33,7 @@ class CfgServerInfoMenu
          menuName = "Missões";
          title = "<t color='#ffffff'>Missões do Servidor</t>";
          content[] = {
-            "<br/>• Small Money Shipment: $150,000<br />• Medium Money Shipment: $175,000<br />• Large Money Shipment: $200,000<br />• Heavy Money Shipment: $350,000<br />• Sunken Treasure: $200,000<br /></p>"
+            "<br/>• Small Money Shipment: $50,000<br />• Medium Money Shipment: $75,000<br />• Large Money Shipment: $100,000<br />• Heavy Money Shipment: $150,000<br />• Sunken Treasure: $150,000<br />• Anonymous Hackers: DESATIVADO<br /></p>"
          };
       };
       class third
