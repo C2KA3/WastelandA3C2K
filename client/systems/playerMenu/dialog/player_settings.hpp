@@ -154,8 +154,8 @@ class playerSettings {
 			idc = groupButton;
 			text = "Grupo";
 			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";
-			x = 0.158; y = 0.68;
-			w = 0.225; h = 0.033 * safezoneH;
+			x = 0.02; y = 0.47;
+			w = 0.133; h = 0.033 * safezoneH;
 		};
 
 		class btnDistanceFar : w_RscButton {
@@ -176,10 +176,10 @@ class playerSettings {
 
 		class airdrop : w_RscButton {
 			idc = -1;
-			text = "Reembalador";
-			onButtonClick = "createDialog'RscDisplaySimpleAmmoRepacker';";
-			x = 0.02; y = 0.49;
-			w = 0.133; h = 0.033 * safezoneH;
+			text = "Ammo Repack";
+			onButtonClick = "createDialog'RscDisplaySimpleAmmoRepacker';";			
+			x = 0.158; y = 0.68;
+			w = 0.225; h = 0.033 * safezoneH;
 		};
 
 		class vdistance : w_RscButton {
