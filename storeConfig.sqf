@@ -432,8 +432,8 @@ headArray = compileFinal str
 	["Boné Militar (Gendarmeria)", "H_MilCap_gen_F", 250, "hat"],
 	["Boné Militar (Tropical)", "H_MilCap_tna_F", 250, "hat"],
 	["Boné Militar (Verde Camuflado)", "H_MilCap_ghex_F", 250, "hat"],	
-	["Cap op.especiais(Camu)", "H_HelmetO_ViperSP_hex_F", 150000, "hat"],   // APEX
-	["Cap op.especiais(Green)", "H_HelmetO_ViperSP_ghex_F", 150000, "hat"],  // APEX
+	//["Cap op.especiais(Camu)", "H_HelmetO_ViperSP_hex_F", 150000, "hat"],   // APEX
+	//["Cap op.especiais(Green)", "H_HelmetO_ViperSP_ghex_F", 150000, "hat"],  // APEX
 	["Cap Ass (Green Camu)", "H_HelmetSpecO_ghex_F", 250, "hat"],
 	["Cap Combat (Tropical)", "H_HelmetB_tna_F", 7500, "hat"],
 	["Cap Combat Leve (Tropical)", "H_HelmetB_Light_tna_F", 7500, "hat"],
@@ -758,9 +758,9 @@ genItemArray = compileFinal str
 	["Compact NVG (Hex)", "O_NVGoggles_hex_F", 2000, "nvg"],
 	["Compact NVG (G Hex)", "O_NVGoggles_ghex_F", 2000, "nvg"],
 	["Compact NVG (Urban)", "O_NVGoggles_urb_F", 2000, "nvg"],
-	["NVG AP (Brown)", "NVGogglesB_gry_F", 120000, "nvg"],
-	["NVG AP (Black)", "NVGogglesB_blk_F", 120000, "nvg"],
-	["NVG AP (Green)", "NVGogglesB_grn_F", 120000, "nvg"],
+	//["NVG AP (Brown)", "NVGogglesB_gry_F", 120000, "nvg"],
+	//["NVG AP (Black)", "NVGogglesB_blk_F", 120000, "nvg"],
+	//["NVG AP (Green)", "NVGogglesB_grn_F", 120000, "nvg"],
 	["Binoculars", "Binocular", 500, "binoc"],
 	["Rangefinder", "Rangefinder", 1500, "binoc"],
 	//["Laser Designator (Sand)", "Laserdesignator", 350000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
