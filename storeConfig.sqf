@@ -275,7 +275,7 @@ ammoArray = compileFinal str
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 500],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 600],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 750],
-	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],
+	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 200],
 	["PG-7VM HEAT Grenade", "RPG7_F", 2000],                   // Direct damage: medium    | Splash damage: low    | Guidance: none
 	["RPG-42 Anti-Tank Rocket", "RPG32_F", 2500],              // Direct damage: high      | Splash damage: low    | Guidance: none
 	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 2500],      // Direct damage: medium    | Splash damage: medium | Guidance: none
@@ -1008,8 +1008,8 @@ helicoptersArray = compileFinal str
 	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 1750000, "vehicle"], // RAH-66 with gunner
 	["Mi-48 Kajman", "O_Heli_Attack_02_F", 1000000, "vehicle"], // Mi-28 with gunner
     ["Mi-48 Kajman Black", "O_Heli_Attack_02_black_F", 1000000, "vehicle"], // Mi-28 with gunner
-	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 500000, "vehicle"],
-	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 600000, "vehicle"]
+	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 250000, "vehicle"],
+	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 350000, "vehicle"]
 ];
 
 planesArray = compileFinal str
@@ -1021,7 +1021,7 @@ planesArray = compileFinal str
 	["A-164 Wipeout CAS", "B_Plane_CAS_01_F", 1200000, "vehicle"],
 	["To-199 Neophron CAS", "O_Plane_CAS_02_F", 1200000, "vehicle"],
 
-	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 600000, "vehicle"],
+	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 200000, "vehicle"],
 	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 2500000, "vehicle"],
 	["Y-32 Xi'an", "O_T_VTOL_02_infantry_F", 2000000, "vehicle"],
 
@@ -1029,9 +1029,9 @@ planesArray = compileFinal str
 	["MQ4A Greyhawk Bomber UAV", "B_UAV_02_CAS_F", 800000, "vehicle"], // Bomber UAVs are a lot harder to use, hence why they are cheaper than Missile ones
 	["K40 Ababil-3 Missile UAV (CSAT)", "O_UAV_02_F", 950000, "vehicle"],
 	["K40 Ababil-3 Bomber UAV (CSAT)", "O_UAV_02_CAS_F", 800000, "vehicle"],
-	["K40 Ababil-3 Missile UAV (AAF)", "I_UAV_02_F", 800000, "vehicle"],
-	["K40 Ababil-3 Bomber UAV (AAF)", "I_UAV_02_CAS_F", 800000, "vehicle"],
-	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 500000, "vehicle"]
+	["K40 Ababil-3 Missile UAV (AAF)", "I_UAV_02_F", 300000, "vehicle"],
+	["K40 Ababil-3 Bomber UAV (AAF)", "I_UAV_02_CAS_F", 250000, "vehicle"],
+	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 200000, "vehicle"]
 ];
 
 boatsArray = compileFinal str
