@@ -542,8 +542,8 @@ uniformArray = compileFinal str
 	["Full Ghillie (Semi-Arid)", "U_B_FullGhillie_sard", 5000, "uni"],
 	["Full Ghillie (Semi-Arid)", "U_O_FullGhillie_sard", 5000, "uni"],
 	["Full Ghillie (Semi-Arid)", "U_I_FullGhillie_sard", 5000, "uni"],
-	["Full Ghillie (Jungle)", "U_B_T_FullGhillie_tna_F", 7000, "uni"],
-	["Full Ghillie (Jungle)", "U_O_T_FullGhillie_tna_F", 7000, "uni"],
+	["Full Ghillie (Jungle BLUFOR) ", "U_B_T_FullGhillie_tna_F", 7000, "uni"],
+	["Full Ghillie (Jungle OPFOR)", "U_O_T_FullGhillie_tna_F", 7000, "uni"],
 	["Traje Paramilitar(Calção)", "U_I_C_Soldier_Para_5_F", 1000, "uni"],
 	["Traje Paramilitar(Camisa)", "U_I_C_Soldier_Para_3_F", 1000, "uni"],
 	["Traje Paramilitar(Camiseta)", "U_I_C_Soldier_Para_1_F", 1000, "uni"],
@@ -1367,7 +1367,12 @@ missionOnlyItems = compileFinal str
 "Laserdesignator_03",
 "optic_tws",
 "optic_tws_mg",
-"optic_Nightstalker"
+"optic_Nightstalker",
+"H_HelmetO_ViperSP_hex_F",
+"H_HelmetO_ViperSP_ghex_F",
+"NVGogglesB_gry_F",
+"NVGogglesB_blk_F",
+"NVGogglesB_grn_F"
 //"B_UAV_01_backpack_F",
 //"O_UAV_01_backpack_F",
 //"I_UAV_01_backpack_F"
