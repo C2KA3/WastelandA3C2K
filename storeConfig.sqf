@@ -1008,7 +1008,6 @@ helicoptersArray = compileFinal str
 	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 1750000, "vehicle"], // RAH-66 with gunner
 	["Mi-48 Kajman", "O_Heli_Attack_02_F", 1000000, "vehicle"], // Mi-28 with gunner
     ["Mi-48 Kajman Black", "O_Heli_Attack_02_black_F", 1000000, "vehicle"], // Mi-28 with gunner
-	["KH-3A Fenghuang UAV", "O_T_UAV_04_CAS_F", 250000, "vehicle"],
 	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 350000, "vehicle"]
 ];
 
