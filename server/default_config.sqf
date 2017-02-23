@@ -97,7 +97,7 @@ A3W_vehicleLifetime = 0;           // Maximum lifetime in hours for saved vehicl
 A3W_vehicleMaxUnusedTime = 7*24;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
 A3W_serverSavingInterval = 3*60;   // Interval in seconds between automatic vehicle & object saves; should be kept at 1 min for profileNamespace and iniDB, while for extDB it can be relaxed to 3-5 mins
 A3W_mineSaving = 1;                // Save placed mines between server restarts (0 = no, 1 = yes)
-A3W_mineLifetime = 2*24;           // Maximum lifetime in hours for saved mines across server restarts (0 = no time limit)
+A3W_mineLifetime = 5*24;           // Maximum lifetime in hours for saved mines across server restarts (0 = no time limit)
 A3W_privateStorage = 1;            // Enable persistent private storage locations across the map (0 = no, 1 = yes)
 A3W_privateParking = 1;            // If vehicleSaving = 1 and savingMethod = "extDB" or "sock", enable persistent private parking locations across the map (0 = no, 1 = yes)
 A3W_privateParkingLimit = 3;       // Maximum amount of vehicles allowed in private parking (0 = no limit)
@@ -154,11 +154,11 @@ A3W_essentialsSpawning = 0;        // If serverSpawning = 1, spawn essential ite
 /*A3W_buildingLootWeapons = 0;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
 A3W_buildingLootSupplies = 0;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
 A3W_buildingLootChances = 0;*/       // Chance percentage that loot will spawn at each spot in a building (0 to 100)
-A3W_vehicleLoot = 1;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
+A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = yes)
 
 // Territory settings
-A3W_territoryCaptureTime = 2*60;   // Time in seconds needed to capture a territory
+A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
 A3W_payrollInterval = 15*60;       // Delay in seconds between each payroll
 A3W_payrollAmount = 2500;           // Amount of money rewarded per territory on each payroll
@@ -168,15 +168,15 @@ A3W_payrollAmount = 2500;           // Amount of money rewarded per territory on
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
 A3W_missionsDifficulty = 1;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
-A3W_missionsQuantity = 2;          // Number of missions running at the same time (0 to 6)
+A3W_missionsQuantity = 1;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
 A3W_waterMissionLimit =  1 ;       // Limite o número de missões de água simultâneos
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 5*60;       // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
-A3W_sideMissionDelay = 5*60;       // Time in seconds between Side Missions
+A3W_sideMissionDelay = 10*60;       // Time in seconds between Side Missions
 A3W_sideMissionTimeout = 60*60;    // Time in seconds that a Side Mission will run for, unless completed
-A3W_moneyMissionDelay = 10*60;     // Time in seconds between Money Missions
+A3W_moneyMissionDelay = 15*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
-A3W_occupationMissionDelay = 10*60; // Time in seconds between Occupation Missions
+A3W_occupationMissionDelay = 20*60; // Time in seconds between Occupation Missions
 A3W_occupationMissionTimeout = 60*60; // Time in seconds that a Occupation Mission will run for, unless completed
