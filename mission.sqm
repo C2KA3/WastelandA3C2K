@@ -8,18 +8,18 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=515;
+		nextID=517;
 	};
 	class LayerIndexProvider
 	{
-		nextID=15;
+		nextID=17;
 	};
 	class Camera
 	{
-		pos[]={3654.0635,19.427202,10156.71};
-		dir[]={0.40134314,-0.34192213,-0.84976137};
-		up[]={0.14603658,0.93971062,-0.3092013};
-		aside[]={-0.90425521,7.5115167e-008,-0.42708078};
+		pos[]={20940.891,26.056164,14730.697};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -93,7 +93,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=307;
+		items=309;
 		class Item0
 		{
 			dataType="Group";
@@ -4989,7 +4989,7 @@ class Mission
 			fillName="DiagGrid";
 			a=80;
 			b=80;
-			angle=359.29489;
+			angle=359.29486;
 			id=354;
 			atlOffset=3.1819907e+027;
 		};
@@ -6037,7 +6037,7 @@ class Mission
 					name="Parking6_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59109;
+					angle=215.59108;
 					id=481;
 				};
 				class Item12
@@ -6342,7 +6342,7 @@ class Mission
 			fillName="DiagGrid";
 			a=80;
 			b=107;
-			angle=318.31592;
+			angle=318.31589;
 			id=507;
 			atlOffset=2.341962e+038;
 		};
@@ -6401,6 +6401,24 @@ class Mission
 			colorName="ColorBlue";
 			id=514;
 			atlOffset=1.8546728;
+		};
+		class Item307
+		{
+			dataType="Marker";
+			position[]={20887.162,2.6692357,14622.937};
+			name="Mission_41";
+			type="Empty";
+			colorName="ColorOrange";
+			id=515;
+		};
+		class Item308
+		{
+			dataType="Marker";
+			position[]={20895.693,2.559912,14631.808};
+			name="Sniper_13";
+			type="Empty";
+			colorName="ColorCIV";
+			id=516;
 		};
 	};
 };
