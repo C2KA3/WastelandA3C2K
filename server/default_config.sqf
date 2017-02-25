@@ -32,8 +32,8 @@ A3W_bleedingTime = 180;             // Time in seconds for which to allow revive
 A3W_headshotNoRevive = 1;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 A3W_customDeathMessages = 1;       // If difficulty option deathMessages=0, display custom messages related to causes of death, as defined in fn_deathMessage.sqf (0 = no, 1 = yes)
 A3W_healthTime = 7*60;             // Seconds till death once starving or dehydrated
-A3W_hungerTime = 100*60;           // Seconds till starving
-A3W_thirstTime = 90*60;           // Seconds till dehydrated
+A3W_hungerTime = 110*60;           // Seconds till starving
+A3W_thirstTime = 105*60;           // Seconds till dehydrated
 
 // Spawn settings
 A3W_townSpawnCooldown = 5*60;      // Number of seconds to wait between each spawn on a specific town (0 = disabled)
@@ -130,7 +130,7 @@ A3W_hcObjCachingID = 1;            // ID of the headless client in charge of obj
 A3W_hcObjCleanup = 1;              // Enable headless client server cleanup (0 = no, 1 = yes)
 A3W_hcObjCleanupID = 1;            // ID of the headless client in charge of object saving (1 or 2)
 A3W_hcObjSaving = 0;               // Enable headless client vehicle & object saving (0 = no, 1 = yes)
-A3W_hcObjSavingID = 1;             // ID of the headless client in charge of object saving (1 or 2)
+A3W_hcObjSavingID = 2;             // ID of the headless client in charge of object saving (1 or 2)
 
 // HEADLESS CLIENT NOTES:
 // The IDs of HCs are assigned according to the order they connect to the server. The first HC to connect will have ID 1, and the second one will have ID 2.
