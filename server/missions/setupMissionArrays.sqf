@@ -9,8 +9,8 @@ if (!isServer) exitWith {};
 MainMissions =
 [
 	// Mission filename, weight
-	["mission_ArmedDiversquad", 0.2],
-	["mission_Coastal_Convoy", 0.5],
+	["mission_ArmedDiversquad", 0.1],
+	["mission_Coastal_Convoy", 0.4],
 	["mission_Convoy", 1],
 	["mission_HostileHeliFormation", 0.3],
 	["mission_APC", 0.1],
@@ -39,12 +39,12 @@ MoneyMissions =
 	["mission_SunkenTreasure", 1],
 	["mission_drugsRunners", 1],
 	["mission_Roadblock", 0.5],
-	["mission_TownInvasion", 1]
+	["mission_TownInvasion", 0.1]
 ];
 
 OccupationMissions =
 [
-	["mission_Occupation", 0.2],
+	["mission_Occupation", 1],
 	["mission_Sniper", 0.5]
 ];
 

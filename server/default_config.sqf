@@ -174,9 +174,9 @@ A3W_waterMissionLimit =  1 ;       // Limite o número de missões de água simu
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 5*60;       // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
-A3W_sideMissionDelay = 10*60;       // Time in seconds between Side Missions
+A3W_sideMissionDelay = 30*60;       // Time in seconds between Side Missions
 A3W_sideMissionTimeout = 60*60;    // Time in seconds that a Side Mission will run for, unless completed
-A3W_moneyMissionDelay = 15*60;     // Time in seconds between Money Missions
+A3W_moneyMissionDelay = 45*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
-A3W_occupationMissionDelay = 20*60; // Time in seconds between Occupation Missions
+A3W_occupationMissionDelay = 60*60; // Time in seconds between Occupation Missions
 A3W_occupationMissionTimeout = 60*60; // Time in seconds that a Occupation Mission will run for, unless completed
