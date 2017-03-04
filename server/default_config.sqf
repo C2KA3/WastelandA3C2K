@@ -29,7 +29,7 @@ A3W_maxMoney = 1000000;            // Maximum amount of money that will save on 
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 180;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
-A3W_headshotNoRevive = 1;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
+//A3W_headshotNoRevive = 1;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 A3W_customDeathMessages = 1;       // If difficulty option deathMessages=0, display custom messages related to causes of death, as defined in fn_deathMessage.sqf (0 = no, 1 = yes)
 A3W_healthTime = 7*60;             // Seconds till death once starving or dehydrated
 A3W_hungerTime = 110*60;           // Seconds till starving
@@ -173,10 +173,8 @@ A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopte
 A3W_waterMissionLimit =  1 ;       // Limite o número de missões de água simultâneos
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 5*60;       // Time in seconds between Main Missions
-A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
-A3W_sideMissionDelay = 30*60;       // Time in seconds between Side Missions
-A3W_sideMissionTimeout = 60*60;    // Time in seconds that a Side Mission will run for, unless completed
-A3W_moneyMissionDelay = 45*60;     // Time in seconds between Money Missions
+A3W_mainMissionTimeout = 50*60;    // Time in seconds that a Main Mission will run for, unless completed
+A3W_sideMissionDelay = 20*60;       // Time in seconds between Side Missions
+A3W_sideMissionTimeout = 40*60;    // Time in seconds that a Side Mission will run for, unless completed
+A3W_moneyMissionDelay = 30*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
-A3W_occupationMissionDelay = 60*60; // Time in seconds between Occupation Missions
-A3W_occupationMissionTimeout = 60*60; // Time in seconds that a Occupation Mission will run for, unless completed
