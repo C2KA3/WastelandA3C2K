@@ -44,7 +44,7 @@ A3W_maxSpawnBeacons = 1;            // Maxmimum number of spawn beacons (0 = dis
 // Antihack settings
 A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI units (0 = no, 1 = yes) - disable if you have custom unit scripts/mods like AI recruitment or ALiVE
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
-A3W_fastMovementLog = 0;           // Enable fast movement check (0 = no, 1 = yes)
+A3W_fastMovementLog = 1;           // Enable fast movement check (0 = no, 1 = yes)
 A3W_fastMovementLogDist = 1000;    // Number of meters in loop before logged
 A3W_fastMovementLoopTime = 1;      // Number of seconds before loop check
 
@@ -93,9 +93,9 @@ A3W_warchestSaving = 0;            // Save warchest objects deployed by players 
 A3W_warchestMoneySaving = 0;       // Save warchest team money between server restarts (0 = no, 1 = yes)
 A3W_spawnBeaconSaving = 1;         // Save spawn beacons between server restarts (0 = no, 1 = yes)
 A3W_objectLifetime = 7*24;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
-A3W_vehicleLifetime = 0;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
+A3W_vehicleLifetime = 5*24;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
 A3W_vehicleMaxUnusedTime = 7*24;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
-A3W_serverSavingInterval = 3*60;   // Interval in seconds between automatic vehicle & object saves; should be kept at 1 min for profileNamespace and iniDB, while for extDB it can be relaxed to 3-5 mins
+A3W_serverSavingInterval = 1*60;   // Interval in seconds between automatic vehicle & object saves; should be kept at 1 min for profileNamespace and iniDB, while for extDB it can be relaxed to 3-5 mins
 A3W_mineSaving = 1;                // Save placed mines between server restarts (0 = no, 1 = yes)
 A3W_mineLifetime = 5*24;           // Maximum lifetime in hours for saved mines across server restarts (0 = no time limit)
 A3W_privateStorage = 1;            // Enable persistent private storage locations across the map (0 = no, 1 = yes)

@@ -5,16 +5,21 @@ private ["_messages", "_timeout"];
 _messages = [
 	["Seja Bem Vindo", (name player)],
 	["Crazy To Kill Wasteland Servers", worldName],
-	["Nível dos Bots", "HARDCORE"],
-	["Headshot No Revive", "ATIVADO"],
-	["Database", "extDB2"],
-	["ATM limit max", "100.000.000"],
-	["Mapa", "Altis"],	
-	["Site", "www.CLANC2K.com.br"],	
-	["Teamspeak", "TS3.CLANC2K.COM.BR"],
-	["Doação", "CLANC2K.com.br/doacao"],
-	["Servidor Conect", "ARMA3.CLANC2K.COM.BR"],
-    ["Porta", "2302"]	
+	["Nível dos Bots:", "HARDCORE"],
+	["Headshot No Revive:", "ATIVADO"],
+	["Database:", "extDB2"],
+	["ATM limit max:", "100.000.000"],
+	["Objetos e Beacons:", "Ficam salvos por até 7 DIAS"],
+	["Veiculos Locados:", "Ficam salvos por até 5 DIAS"],
+	["Minas Salvas:", "Ficam salvas por até 5 DIAS"],
+	["Mapa", "Altis:"],
+    ["REGRAS:", "Bug, Hack, Dupping, Glitch, Racismo ou qualquer tipo de ofença é PROIBIDA"],	
+	["Site:", "www.CLANC2K.com.br"],	
+	["Teamspeak:", "TS3.CLANC2K.COM.BR"],
+	["Doação:", "CLANC2K.com.br/doacao"],
+	["Servidor Conect:", "ARMA3.CLANC2K.COM.BR"],
+    ["Porta:", "2302"],
+    ["Obrigado:", "Ótimo jogo..."]	
 	
 ];
 
