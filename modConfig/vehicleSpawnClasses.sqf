@@ -58,9 +58,9 @@ staticHeliList =
 [
 	"C_Heli_Light_01_civil_F",
 	"C_Heli_Light_01_civil_F",
-	"B_Heli_Light_01_F",
-	"O_Heli_Light_02_unarmed_F",
-	"I_Heli_light_03_unarmed_F"
+	"B_Heli_Light_01_F"
+	//"O_Heli_Light_02_unarmed_F",
+	//"I_Heli_light_03_unarmed_F"
 	// don't put cargo helicopters here, it doesn't make sense to find them in towns; they spawn in the CivHeli mission
 ];
 
@@ -69,6 +69,7 @@ staticPlaneList =
 [
 	//["B_Plane_CAS_01_F", "O_Plane_CAS_02_F"],
 	//"I_Plane_Fighter_03_AA_F"
+	"C_Plane_Civil_01_F"
 ];
 
 A3W_planeSpawnOdds = 0.25; // 0.0 to 1.0
@@ -79,6 +80,7 @@ vehicleWeapons =
 	["SMG_01_F" /*Vermin*/, "SMG_02_F" /*Sting*/, "hgun_PDW2000_F"],
 	["arifle_TRG20_F", "arifle_TRG21_F", "arifle_TRG21_GL_F"],
 	["arifle_Mk20C_F", "arifle_Mk20_F", "arifle_Mk20_GL_F"],
+	["arifle_SPAR_02_khk_F", "LMG_03_F"],
 	["arifle_Katiba_F", "arifle_Katiba_C_F", "arifle_Katiba_GL_F"]
 //	["arifle_MXC_F", "arifle_MX_F", "arifle_MX_GL_F", "arifle_MXM_F"],
 //	["srifle_EBR_F", "srifle_DMR_01_F"],
@@ -87,32 +89,28 @@ vehicleWeapons =
 
 vehicleAddition =
 [
-	"muzzle_snds_L", // 9mm
-	"muzzle_snds_M", // 5.56mm
-	"muzzle_snds_H", // 6.5mm
-//	"muzzle_snds_H_MG", // 6.5mm LMG
-//	"muzzle_snds_B", // 7.62mm
+    "muzzle_snds_L", // 9mm
 	"muzzle_snds_acp", // .45 ACP
-//	"optic_Arco",
-//	"optic_SOS",
-	"optic_Hamr",
-	"optic_Aco",
-//	"optic_ACO_grn",
-//	"optic_aco_smg",
-//	"optic_Holosight",
-//	"optic_Holosight_smg",
-	"acc_flashlight",
-	"acc_pointer_IR",
-//	"Medikit",
-//	"ToolKit"
-	"FirstAidKit"
-
+	"muzzle_snds_M", // 5.56mm
+	"muzzle_snds_58_blk_F", // 5.8mm
+	"muzzle_snds_H", // 6.5mm
+	"muzzle_snds_H_MG", // 6.5mm LMG
+	"muzzle_snds_65_TI_blk_F", // Type 115
+	"muzzle_snds_B", // 7.62mm
+	"muzzle_snds_338_black", // .338
+	"muzzle_snds_93mmg", // 9.3mm
+	["V_TacVest_blk", "V_TacVestIR_blk", "V_Press_F", "H_HelmetIA", "H_HelmetB"],
+	["optic_Arco", "optic_SOS", "optic_LRPS"],
+	["optic_Hamr", "optic_DMS", "optic_Aco", "optic_ACO_grn"],
+	["optic_aco_smg", "optic_Holosight", "optic_Holosight_smg"],
+	"acc_pointer_IR"
+	
 ];
 
 vehicleAddition2 =
 [
+	//"Titan_AA",
 	"Chemlight_yellow",
-	"SmokeShellPurple",
-	"SmokeShellYellow",
-	"SmokeShellOrange"
+	["SmokeShellPurple", "SmokeShellYellow", "SmokeShellOrange"],
+	["Medikit", "FirstAidKit", "ToolKit"]
 ];

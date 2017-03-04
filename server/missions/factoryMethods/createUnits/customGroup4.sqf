@@ -40,8 +40,7 @@ for "_i" from 1 to _nbUnits do
 	removeHeadgear _unit;
 	removeGoggles _unit;
 
-	_unit addVest "V_PlateCarrier1_rgr";
-	_unit addItem "FirstAidKit";
+	_unit addVest "V_BandollierB_oli";
 
 	switch (true) do
 	{
@@ -65,7 +64,7 @@ for "_i" from 1 to _nbUnits do
 			_unit addMagazine "30Rnd_65x39_caseless_green_mag_Tracer";
 			_unit addWeapon "arifle_Katiba_F";
 			_unit addPrimaryWeaponItem "optic_Arco";
-			_unit addBackpack "B_Carryall_oli";
+			_unit addBackpack "B_Kitbag_sgg";
 			_unit addMagazine "NLAW_F";
 			_unit addWeapon "launch_NLAW_F";
 			_unit addMagazine "NLAW_F";

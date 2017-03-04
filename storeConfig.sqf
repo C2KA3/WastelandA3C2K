@@ -168,12 +168,12 @@ allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call 
 staticGunsArray = compileFinal str
 [
 	// ["Vehicle Ammo Crate", "Box_NATO_AmmoVeh_F", 2500],
-	["Static Titan AT 4Rnd", "B_static_AT_F", 30000], // Static launchers only have 4 ammo, hence the low price
-	["Static Titan AT 4Rnd", "O_static_AT_F", 30000],
-	["Static Titan AT 4Rnd", "I_static_AT_F", 30000],
-	["Static Titan AA 4Rnd", "B_static_AA_F", 50000],
-	["Static Titan AA 4Rnd", "O_static_AA_F", 50000],
-	["Static Titan AA 4Rnd", "I_static_AA_F", 50000],
+	//["Static Titan AT 4Rnd", "B_static_AT_F", 30000], // Static launchers only have 4 ammo, hence the low price
+	//["Static Titan AT 4Rnd", "O_static_AT_F", 30000],
+	//["Static Titan AT 4Rnd", "I_static_AT_F", 30000],
+	//["Static Titan AA 4Rnd", "B_static_AA_F", 50000],
+	//["Static Titan AA 4Rnd", "O_static_AA_F", 50000],
+	//["Static Titan AA 4Rnd", "I_static_AA_F", 50000],
 	["Mk30 HMG .50 Low tripod", "B_HMG_01_F", 20000],
 	["Mk30 HMG .50 Low tripod", "O_HMG_01_F", 20000],
 	["Mk30 HMG .50 Low tripod", "I_HMG_01_F", 20000],
@@ -183,18 +183,18 @@ staticGunsArray = compileFinal str
 	["Mk30 HMG .50 High tripod", "B_HMG_01_high_F", 30000],
 	["Mk30 HMG .50 High tripod", "O_HMG_01_high_F", 30000],
 	["Mk30 HMG .50 High tripod", "I_HMG_01_high_F", 30000],
-	["Mk32 GMG 20mm Low tripod", "B_GMG_01_F", 50000],
-	["Mk32 GMG 20mm Low tripod", "O_GMG_01_F", 50000],
-	["Mk32 GMG 20mm Low tripod", "I_GMG_01_F", 50000],
+	["Mk32 GMG 20mm Low tripod", "B_GMG_01_F", 60000],
+	["Mk32 GMG 20mm Low tripod", "O_GMG_01_F", 60000],
+	["Mk32 GMG 20mm Low tripod", "I_GMG_01_F", 60000],
 	// ["Mk32A GMG 20mm Sentry", "B_GMG_01_A_F", 10000],
 	// ["Mk32A GMG 20mm Sentry", "O_GMG_01_A_F", 10000],
 	// ["Mk32A GMG 20mm Sentry", "I_GMG_01_A_F", 10000],
-	["Mk32 GMG 20mm High tripod", "B_GMG_01_high_F", 60000],
-	["Mk32 GMG 20mm High tripod", "O_GMG_01_high_F", 60000],
-	["Mk32 GMG 20mm High tripod", "I_GMG_01_high_F", 60000],
-	["Mk6 Mortar", "B_Mortar_01_F", 75000],
-	["Mk6 Mortar", "O_Mortar_01_F", 75000],
-	["Mk6 Mortar", "I_Mortar_01_F", 75000]
+	["Mk32 GMG 20mm High tripod", "B_GMG_01_high_F", 70000],
+	["Mk32 GMG 20mm High tripod", "O_GMG_01_high_F", 70000],
+	["Mk32 GMG 20mm High tripod", "I_GMG_01_high_F", 70000],
+	["Mk6 Mortar", "B_Mortar_01_F", 95000],
+	["Mk6 Mortar", "O_Mortar_01_F", 95000],
+	["Mk6 Mortar", "I_Mortar_01_F", 95000]
 ];
 
 throwputArray = compileFinal str
