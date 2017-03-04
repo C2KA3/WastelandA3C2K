@@ -210,10 +210,10 @@ _playerSideNum = switch (playerSide) do
 		if (_weaponClass in call missionOnlyItems) then {
 			_itemlist lbSetColor [_listIndex, [1, 1, 1, .5]];
 		};
-		/*//Disabled look for donator only items
+		//Disabled look for donator only items
 		if (!(getPlayerUID player call isdonor) && _weaponClass in call donatorItems) then {
 			_itemlist lbSetColor [_listIndex, [0, 255, 0, .25]];
-		};*/
+		};
 	};
 } forEach _itemsArray;
 
