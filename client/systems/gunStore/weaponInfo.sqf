@@ -76,10 +76,10 @@ if (_showAmmo) then
 				if (_shopMagClass in call missionOnlyItems) then {
 					_ammolist lbSetColor [_ammolistIndex, [1, 1, 1, .5]];
 				};
-				//Disabled look for donator only items
+				/*//Disabled look for donator only items
 				if (!(getPlayerUID player call isdonor) && _shopMagClass in call donatorItems) then {
 					_ammolist lbSetColor [_ammolistIndex, [0, 255, 0, .25]];
-				};
+				};*/
 			};
 		} forEach (call ammoArray);
 
