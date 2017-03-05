@@ -879,7 +879,7 @@ landArray = compileFinal str
 [
 	// SKIPSAVE = will not be autosaved until first manual force save, good for cheap vehicles that usually get abandoned
 
-	["Kart", "C_Kart_01_F", 500, "vehicle", "SKIPSAVE"],
+	//["Kart", "C_Kart_01_F", 500, "vehicle", "SKIPSAVE"],
 
 	["Quadbike (Civilian)", "C_Quadbike_01_F", 600, "vehicle", "SKIPSAVE"],
 	["Quadbike (NATO)", "B_Quadbike_01_F", 650, "vehicle", "SKIPSAVE"],
