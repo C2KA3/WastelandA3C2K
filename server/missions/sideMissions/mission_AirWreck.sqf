@@ -14,7 +14,7 @@ private ["_nbUnits", "_wreckPos", "_wreck", "_box", "_randomBox", "_randomCase"]
 _setupVars =
 {
 	_missionType = "Aircraft Wreck";
-	_locationsArray = [ForestMissionMarkers, MissionSpawnMarkers] select (ForestMissionMarkers isEqualTo []);
+	_locationsArray = MissionSpawnMarkers;
 	_nbUnits = if (missionDifficultyHard) then { AI_GROUP_LARGE } else { AI_GROUP_MEDIUM };
 };
 
@@ -38,7 +38,7 @@ _setupObjects =
 	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup;
 
 	_missionPicture = getText (configFile >> "CfgVehicles" >> typeOf _wreck >> "picture");
-	_missionHintText = "A helicopter has come down under enemy fire!";
+	_missionHintText = "A helicopter has come down under enemy fire! Secure the crash site.";
 };
 
 _waitUntilMarkerPos = nil;
@@ -57,7 +57,7 @@ _successExec =
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box];
 	deleteVehicle _wreck;
 
-	_successHintMessage = "The airwreck supplies have been collected. Well done.";
+	_successHintMessage = "The crash site has been secured. Well done.";
 };
 
 _this call sideMissionProcessor;

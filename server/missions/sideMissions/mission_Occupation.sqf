@@ -7,12 +7,13 @@
 if (!isServer) exitwith {};
 #include "sideMissionDefines.sqf";
 
-private ["_positions", "_box", "_missionPos", "_randomBox", "_randomCase"];
+private ["_nbUnits", "_positions", "_box", "_missionPos", "_randomBox", "_randomCase"];
 
 _setupVars =
 {
 	_missionType = "Occupation";
-	_locationsArray = [ForestMissionMarkers, OccupationMissionMarkers] select (ForestMissionMarkers isEqualTo []);
+	_locationsArray = OccupationMissionMarkers;
+	_nbUnits = if (missionDifficultyHard) then { AI_GROUP_LARGE } else { AI_GROUP_MEDIUM };
 };
 
 _setupObjects =
@@ -28,7 +29,7 @@ _setupObjects =
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box];
 
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup,_missionPos] call createOccupationGroup;
+	[_aiGroup, _missionPos, _nbUnits] call createOccupationGroup;
 
 	_aiGroup setCombatMode "RED";
 	_aiGroup setBehaviour "COMBAT";

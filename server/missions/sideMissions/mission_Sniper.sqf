@@ -7,12 +7,13 @@
 if (!isServer) exitwith {};
 #include "sideMissionDefines.sqf";
 
-private ["_positions", "_box1", "_box2", "_missionPos", "_randomBox", "_randomBox2"];
+private ["_nbUnits", "_positions", "_box1", "_box2", "_missionPos", "_randomBox", "_randomBox2"];
 
 _setupVars =
 {
 	_missionType = "Sniper Nest";
-	_locationsArray = [ForestMissionMarkers, SniperMissionMarkers] select (ForestMissionMarkers isEqualTo []);
+	_locationsArray = SniperMissionMarkers;
+	_nbUnits = if (missionDifficultyHard) then { AI_GROUP_LARGE } else { AI_GROUP_MEDIUM };
 };
 
 _setupObjects =
@@ -32,7 +33,7 @@ _setupObjects =
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1, _box2];
 
 	_aiGroup = createGroup CIVILIAN;
-	[_aiGroup,_missionPos] call createsniperGroup;
+	[_aiGroup, _missionPos, _nbUnits] call createsniperGroup;
 
 	_aiGroup setCombatMode "RED";
 	_aiGroup setBehaviour "COMBAT";
