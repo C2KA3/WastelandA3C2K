@@ -9,7 +9,7 @@
 
 // General settings
 A3W_teamPlayersMap = 1;            // Show all friendly players on the map at all times, regardless of difficulty level (0 = no, 1 = yes)
-//A3W_disableGlobalVoice = 1;        // Auto-switch channel to Direct communication whenever broadcasting voice on global, unless being admin (0 = no, 1 = yes)
+//A3W_disableGlobalVoice = 1;      // Auto-switch channel to Direct communication whenever broadcasting voice on global, unless being admin (0 = no, 1 = yes)
 A3W_uavControl = "group";          // Restrict connection to UAVs based on ownership ("owner", "group", "side")
 A3W_disableUavFeed = 1;            // Force disable UAV PIP feed to prevent thermal camera abuse (0 = no, 1 = yes)
 A3W_disableBuiltInThermal = 1;     // Display a black screen if the player tries to use thermal vision built-in a handheld weapon like Titan launcher (0 = no, 1 = yes)
@@ -19,17 +19,17 @@ A3W_maxPlayers = 72;               // Server slot limit. Needed for reserved slo
 
 // Time settings
 A3W_startHour = 7;                // In-game hour at mission start (0 to 23) - time is saved and restored between server restarts if A3W_timeSaving = 1
-A3W_timeMultiplierDay = 2.1;       // Sets the speed of time between 5 AM and 8 PM (for example, 6.0 means 6 hours in-game will pass in 1 real hour)
-A3W_timeMultiplierNight = 10.1;     // Sets the speed of time between 8 PM and 5 AM
-A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
+A3W_timeMultiplierDay = 2.1;      // Sets the speed of time between 5 AM and 8 PM (for example, 6.0 means 6 hours in-game will pass in 1 real hour)
+A3W_timeMultiplierNight = 10.1;   // Sets the speed of time between 8 PM and 5 AM
+A3W_moonLight = 1;                // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
 A3W_startingMoney = 5000;          // Amount of money that players start with
 A3W_maxMoney = 1000000;            // Maximum amount of money that will save on players and crates
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
-A3W_bleedingTime = 180;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
-//A3W_headshotNoRevive = 1;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
+A3W_bleedingTime = 180;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
+//A3W_headshotNoRevive = 1;        // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 A3W_customDeathMessages = 1;       // If difficulty option deathMessages=0, display custom messages related to causes of death, as defined in fn_deathMessage.sqf (0 = no, 1 = yes)
 A3W_healthTime = 7*60;             // Seconds till death once starving or dehydrated
 A3W_hungerTime = 110*60;           // Seconds till starving
@@ -38,8 +38,8 @@ A3W_thirstTime = 105*60;           // Seconds till dehydrated
 // Spawn settings
 A3W_townSpawnCooldown = 5*60;      // Number of seconds to wait between each spawn on a specific town (0 = disabled)
 A3W_spawnBeaconCooldown = 7*60;    // Number of seconds to wait between each use of a specific spawn beacon (0 = disabled)
-A3W_spawnBeaconSpawnHeight = 1500;  // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
-A3W_maxSpawnBeacons = 1;            // Maxmimum number of spawn beacons (0 = disabled)
+A3W_spawnBeaconSpawnHeight = 1500; // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
+A3W_maxSpawnBeacons = 1;           // Maxmimum number of spawn beacons (0 = disabled)
 
 // Antihack settings
 A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI units (0 = no, 1 = yes) - disable if you have custom unit scripts/mods like AI recruitment or ALiVE
@@ -58,7 +58,7 @@ A3W_lockVehicles = ["MRAP_01_base_F", "MRAP_02_base_F", "MRAP_03_base_F", "Truck
 
 // ATM settings
 A3W_atmEnabled = 1;                // Enable ATM system (0 = no, 1 = yes)
-A3W_atmMaxBalance = 100000000;        // Maximum amount of money that can be stored in a bank account (don't go over 16777216 as numbers start losing accuracy)
+A3W_atmMaxBalance = 100000000;     // Maximum amount of money that can be stored in a bank account (don't go over 16777216 as numbers start losing accuracy)
 A3W_atmTransferFee = 5;            // Fee in percent charged to players for money transfers to other players (0 to 50)
 A3W_atmTransferAllTeams = 0;       // Allow money transfers between players of all teams/sides (0 = same team only, 1 = all teams)
 A3W_atmEditorPlacedOnly = 0;       // Only allow access via ATMs placed from the mission editor (0 = all ATMs from towns & editor allowed, 1 = ATMs from editor only) Note: Stratis has no town ATMs, only editor ones.
@@ -66,7 +66,7 @@ A3W_atmMapIcons = 1;               // Draw small icons on the map that indicate 
 A3W_atmRemoveIfDisabled = 1;       // Remove all ATMs from map if A3W_atmEnabled is set to 0 (0 = no, 1 = yes)
 
 A3W_bountyMax = 994000;            // Maximum amount of money that can be set as a bounty on someone
-A3W_bountyMinStart = 25000;         // Minimum amount of money to start a bounty on someone
+A3W_bountyMinStart = 25000;        // Minimum amount of money to start a bounty on someone
 A3W_bountyRewardPerc = 75;         // Percentage of cost that goes to bounty reward
 A3W_bountyLifetime = 3*24;         // Maximum lifetime in hours for bounty kills to store in DB (storing bounty kills is to prevent from forming groups with someone you collected bounty on)
 
@@ -93,7 +93,7 @@ A3W_warchestSaving = 0;            // Save warchest objects deployed by players 
 A3W_warchestMoneySaving = 0;       // Save warchest team money between server restarts (0 = no, 1 = yes)
 A3W_spawnBeaconSaving = 1;         // Save spawn beacons between server restarts (0 = no, 1 = yes)
 A3W_objectLifetime = 7*24;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
-A3W_vehicleLifetime = 5*24;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
+A3W_vehicleLifetime = 5*24;        // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
 A3W_vehicleMaxUnusedTime = 7*24;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
 A3W_serverSavingInterval = 1*60;   // Interval in seconds between automatic vehicle & object saves; should be kept at 1 min for profileNamespace and iniDB, while for extDB it can be relaxed to 3-5 mins
 A3W_mineSaving = 1;                // Save placed mines between server restarts (0 = no, 1 = yes)
@@ -151,18 +151,17 @@ A3W_baseBuilding = 0;              // If serverSpawning = 1, spawn base parts in
 A3W_essentialsSpawning = 0;        // If serverSpawning = 1, spawn essential items (food sacks, water barrels, minor supply crates) in towns (0 = no, 1 = yes)
 
 // Loot settings
-/*A3W_buildingLootWeapons = 0;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
+/*A3W_buildingLootWeapons = 0;     // Spawn weapon loot in all buildings (0 = no, 1 = yes)
 A3W_buildingLootSupplies = 0;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
-A3W_buildingLootChances = 0;*/       // Chance percentage that loot will spawn at each spot in a building (0 to 100)
-A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
+A3W_buildingLootChances = 0;*/     // Chance percentage that loot will spawn at each spot in a building (0 to 100)
+A3W_vehicleLoot = 1;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = yes)
 
 // Territory settings
 A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
 A3W_payrollInterval = 15*60;       // Delay in seconds between each payroll
-A3W_payrollAmount = 2500;           // Amount of money rewarded per territory on each payroll
-//A3W_territoryAllowed = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]; //Territories allowed
+A3W_payrollAmount = 2500;          // Amount of money rewarded per territory on each payroll
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
@@ -170,11 +169,11 @@ A3W_missionsDifficulty = 1;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
 A3W_missionsQuantity = 1;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
-A3W_waterMissionLimit =  1 ;       // Limite o número de missões de água simultâneos
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
+A3W_waterMissionLimit = 1;         // Limit the number of concurrent water missions
 A3W_mainMissionDelay = 5*60;       // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 50*60;    // Time in seconds that a Main Mission will run for, unless completed
-A3W_sideMissionDelay = 20*60;       // Time in seconds between Side Missions
+A3W_sideMissionDelay = 20*60;      // Time in seconds between Side Missions
 A3W_sideMissionTimeout = 40*60;    // Time in seconds that a Side Mission will run for, unless completed
 A3W_moneyMissionDelay = 30*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
