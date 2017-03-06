@@ -11,7 +11,7 @@
 #define HELI_MISSILE_DMG_SCALE 1.7
 #define PLANE_MISSILE_DMG_SCALE 1.5
 #define IFV_DMG_SCALE 1.2
-#define TANK_DMG_SCALE 1.7
+#define TANK_DMG_SCALE 1.0
 
 _vehicle = _this select 0;
 _selection = _this select 1;

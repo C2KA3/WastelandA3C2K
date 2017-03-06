@@ -150,7 +150,7 @@ launcherArray = compileFinal str
 	["RPG-7", "launch_RPG7_F", 7000],
 	["RPG-42 Alamut", "launch_RPG32_F", 10000],
 	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"],
-	["PCML", "launch_NLAW_F", 15000]
+	//["PCML", "launch_NLAW_F", 15000]
 	//["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
 	//["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
 	//["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 20000],
@@ -279,7 +279,7 @@ ammoArray = compileFinal str
 	["PG-7VM HEAT Grenade", "RPG7_F", 2000],                   // Direct damage: medium    | Splash damage: low    | Guidance: none
 	["RPG-42 Anti-Tank Rocket", "RPG32_F", 2500],              // Direct damage: high      | Splash damage: low    | Guidance: none
 	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 2500],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-	["PCML Anti-Tank Missile", "NLAW_F", 4000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
+//	["PCML Anti-Tank Missile", "NLAW_F", 4000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
 //	["Titan Anti-Tank Missile", "Titan_AT", 9500],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
 //  ["Titan Anti-Personnel Missile", "Titan_AP", 9500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
 //	["Titan Anti-Air Missile", "Titan_AA", 9500],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
