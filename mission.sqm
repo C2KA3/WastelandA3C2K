@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=14;
+	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=1036;
+		nextID=1048;
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=22;
 	};
 	class Camera
 	{
-		pos[]={10588.311,62.228989,9507.7959};
-		dir[]={-0.28768301,-0.54500115,-0.78756696};
-		up[]={-0.18702434,0.83837134,-0.51200169};
-		aside[]={-0.93931097,3.8810322e-007,0.34311315};
+		pos[]={14175.294,123.52196,21172.939};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -111,7 +111,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=334;
+		items=345;
 		class Item0
 		{
 			dataType="Group";
@@ -3195,7 +3195,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11533.004,19.740152,9433.5977};
+						position[]={11533.004,19.740147,9433.5977};
 					};
 					side="Civilian";
 					flags=7;
@@ -3206,12 +3206,14 @@ class Mission
 					};
 					id=678;
 					type="C_man_1_1_F";
+					atlOffset=-5.7220459e-006;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=677;
+			atlOffset=-5.7220459e-006;
 		};
 		class Item37
 		{
@@ -3908,7 +3910,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=724;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3927,7 +3928,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=725;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3946,7 +3946,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=726;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3965,7 +3964,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=727;
 			type="Land_Cargo_Patrol_V1_F";
@@ -4021,7 +4019,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=730;
 			type="Land_Slum_House02_F";
@@ -4039,7 +4036,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=731;
 			type="Land_Slum_House02_F";
@@ -4057,7 +4053,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=733;
 			type="Land_Slum_House03_F";
@@ -4076,7 +4071,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=734;
 			type="Land_Slum_House03_F";
@@ -4093,7 +4087,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=735;
 			type="Land_Slum_House03_F";
@@ -4112,7 +4105,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=736;
 			type="Land_Slum_House01_F";
@@ -4131,7 +4123,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=737;
 			type="Land_Slum_House01_F";
@@ -4150,7 +4141,6 @@ class Mission
 			class Attributes
 			{
 				init="[this, true] call A3W_fnc_setupMissionObject";
-				createAsSimpleObject=1;
 			};
 			id=738;
 			type="Land_Slum_House01_F";
@@ -6506,7 +6496,7 @@ class Mission
 					name="Parking9";
 					type="Empty";
 					colorName="ColorBlack";
-					id=1034;
+					id=1029;
 					atlOffset=-44.149994;
 				};
 				class Item17
@@ -6516,8 +6506,8 @@ class Mission
 					name="Parking9_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59099;
-					id=1035;
+					angle=215.59094;
+					id=1030;
 					atlOffset=2.1906079e+024;
 				};
 			};
@@ -6586,6 +6576,289 @@ class Mission
 		};
 		class Item301
 		{
+			dataType="Marker";
+			position[]={13480.5,-6.1245099e-030,12026.5};
+			name="TERRITORY_MAKRYNISI";
+			text="AAC Airfield";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=450;
+			b=100;
+			angle=305.35901;
+			id=999;
+			atlOffset=-11.698555;
+		};
+		class Item302
+		{
+			dataType="Marker";
+			position[]={3081.7666,3.1819907e+027,13189.09};
+			name="TERRITORY_KASTRO_CASTLE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=80;
+			b=80;
+			angle=359.2948;
+			id=1000;
+			atlOffset=3.1819907e+027;
+		};
+		class Item303
+		{
+			dataType="Marker";
+			position[]={16066.309,15.243137,16998.768};
+			name="TERRITORY_MILITARY_RESEARCH";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=125;
+			b=140;
+			angle=9.4329548;
+			id=1001;
+		};
+		class Item304
+		{
+			dataType="Marker";
+			position[]={4837.5459,3.1819907e+027,21931.078};
+			name="TERRITORY_THRONOS_CASTLE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=100;
+			b=100;
+			angle=181.46498;
+			id=1002;
+			atlOffset=3.1819907e+027;
+		};
+		class Item305
+		{
+			dataType="Marker";
+			position[]={11189,0,8721.5};
+			name="TERRITORY_VIKOS_CASTLE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=50;
+			angle=181.46498;
+			id=1003;
+			atlOffset=-182.34602;
+		};
+		class Item306
+		{
+			dataType="Marker";
+			position[]={21498.473,12.088601,10836.145};
+			name="TERRITORY_ARTINARKI_RUINS";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=110;
+			angle=37.967197;
+			id=1004;
+		};
+		class Item307
+		{
+			dataType="Marker";
+			position[]={15502.717,12.702961,16301.681};
+			name="TERRITORY_CENTER_POWER_PLANT";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=80;
+			angle=83.320992;
+			id=1005;
+		};
+		class Item308
+		{
+			dataType="Marker";
+			position[]={21592.693,19.400345,21265.885};
+			name="TERRITORY_IRAKLIA_RUINS";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=40;
+			b=30;
+			angle=89.166656;
+			id=1006;
+		};
+		class Item309
+		{
+			dataType="Marker";
+			position[]={4556.8096,262.84003,15408.569};
+			name="TERRITORY_MAGOS_TRANSMITTER";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=60;
+			b=50;
+			angle=113.57078;
+			id=1007;
+			atlOffset=-3.0517578e-005;
+		};
+		class Item310
+		{
+			dataType="Marker";
+			position[]={14806.477,17.91,16653.357};
+			name="TERRITORY_MAIN_AIRBASE_CENTER";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=300;
+			b=300;
+			angle=43.967979;
+			id=1008;
+		};
+		class Item311
+		{
+			dataType="Marker";
+			position[]={15225.079,17.516605,17085.578};
+			name="TERRITORY_MAIN_AIRBASE_NE";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=300;
+			b=300;
+			angle=43.967979;
+			id=1009;
+		};
+		class Item312
+		{
+			dataType="Marker";
+			position[]={14387.867,18.944099,16220.769};
+			name="TERRITORY_MAIN_AIRBASE_SW";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=300;
+			b=300;
+			angle=43.968014;
+			id=1010;
+		};
+		class Item313
+		{
+			dataType="Marker";
+			position[]={26941.389,20.260515,24762.58};
+			name="TERRITORY_NE_AIRFIELD";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=100;
+			b=280;
+			angle=40.578884;
+			id=1011;
+		};
+		class Item314
+		{
+			dataType="Marker";
+			position[]={9104.8623,15.541224,21519.289};
+			name="TERRITORY_NW_AIRFIELD";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=180;
+			b=90;
+			angle=323.73181;
+			id=1012;
+		};
+		class Item315
+		{
+			dataType="Marker";
+			position[]={17429,2.341962e+038,13161};
+			name="TERRITORY_PYRGOS_TRANSMITTER";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=80;
+			b=107;
+			angle=318.31583;
+			id=1013;
+			atlOffset=2.341962e+038;
+		};
+		class Item316
+		{
+			dataType="Marker";
+			position[]={9328.2363,267.96201,19306.725};
+			name="TERRITORY_PYRSOS_TRANSMITTER";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=80;
+			b=200;
+			angle=259.332;
+			id=1014;
+		};
+		class Item317
+		{
+			dataType="Marker";
+			position[]={23144.682,3.1900001,18681.383};
+			name="TERRITORY_SALTFLATS_AIRFIELD";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=310;
+			b=90;
+			angle=269.92511;
+			id=1015;
+		};
+		class Item318
+		{
+			dataType="Marker";
+			position[]={20978.602,26.419388,7222.4941};
+			name="TERRITORY_SE_AIRFIELD";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=220;
+			b=190;
+			angle=144.13901;
+			id=1016;
+		};
+		class Item319
+		{
+			dataType="Marker";
+			position[]={4228.3799,18.116827,15052.348};
+			name="TERRITORY_WEST_POWER_PLANT";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=80;
+			angle=91.654846;
+			id=1017;
+		};
+		class Item320
+		{
+			dataType="Marker";
+			position[]={3607.2744,15.698097,10276.05};
+			name="Mission_41";
+			type="Empty";
+			colorName="ColorOrange";
+			id=1018;
+			atlOffset=-2.8610229e-005;
+		};
+		class Item321
+		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
@@ -6605,7 +6878,7 @@ class Mission
 						init="[this] spawn A3W_fnc_setupStoreNPC";
 						name="VehStore5";
 					};
-					id=1000;
+					id=1020;
 					type="C_man_1_1_F";
 					atlOffset=3.5100012;
 				};
@@ -6613,39 +6886,39 @@ class Mission
 			class Attributes
 			{
 			};
-			id=999;
+			id=1019;
 			atlOffset=3.5100012;
 		};
-		class Item302
+		class Item322
 		{
 			dataType="Marker";
 			position[]={3663.5,6.68999,10185.5};
 			name="VehStore5_heliSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			id=1001;
+			id=1021;
 		};
-		class Item303
+		class Item323
 		{
 			dataType="Marker";
 			position[]={3682,2.5,10149};
 			name="VehStore5_landSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			id=1002;
+			id=1022;
 			atlOffset=0.55928087;
 		};
-		class Item304
+		class Item324
 		{
 			dataType="Marker";
 			position[]={3706,0,10101.5};
 			name="VehStore5_seaSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			id=1003;
+			id=1023;
 			atlOffset=4.6379743;
 		};
-		class Item305
+		class Item325
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6659,20 +6932,20 @@ class Mission
 			{
 				init="[this] call A3W_fnc_setupMissionATM";
 			};
-			id=1004;
+			id=1024;
 			type="Land_Atm_02_F";
 			atlOffset=0.15066719;
 		};
-		class Item306
+		class Item326
 		{
 			dataType="Marker";
 			position[]={27022.061,20.652449,23231.904};
 			name="GenStore6_objSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			id=1005;
+			id=1025;
 		};
-		class Item307
+		class Item327
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6694,305 +6967,31 @@ class Mission
 						init="[this] spawn A3W_fnc_setupStoreNPC";
 						name="GenStore6";
 					};
-					id=1007;
+					id=1027;
 					type="C_man_1_1_F";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=1006;
-		};
-		class Item308
-		{
-			dataType="Marker";
-			position[]={13480.5,-6.1245099e-030,12026.5};
-			name="TERRITORY_MAKRYNISI";
-			text="AAC Airfield";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=450;
-			b=100;
-			angle=305.35901;
-			id=1008;
-			atlOffset=-11.698555;
-		};
-		class Item309
-		{
-			dataType="Marker";
-			position[]={3081.7666,3.1819907e+027,13189.09};
-			name="TERRITORY_KASTRO_CASTLE";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=80;
-			b=80;
-			angle=359.2948;
-			id=1009;
-			atlOffset=3.1819907e+027;
-		};
-		class Item310
-		{
-			dataType="Marker";
-			position[]={16066.309,15.243137,16998.768};
-			name="TERRITORY_MILITARY_RESEARCH";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=125;
-			b=140;
-			angle=9.4329548;
-			id=1010;
-		};
-		class Item311
-		{
-			dataType="Marker";
-			position[]={4837.5459,3.1819907e+027,21931.078};
-			name="TERRITORY_THRONOS_CASTLE";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=100;
-			b=100;
-			angle=181.46498;
-			id=1011;
-			atlOffset=3.1819907e+027;
-		};
-		class Item312
-		{
-			dataType="Marker";
-			position[]={11189,0,8721.5};
-			name="TERRITORY_VIKOS_CASTLE";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=181.46498;
-			id=1012;
-			atlOffset=-182.34602;
-		};
-		class Item313
-		{
-			dataType="Marker";
-			position[]={21498.473,12.088601,10836.145};
-			name="TERRITORY_ARTINARKI_RUINS";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=50;
-			b=110;
-			angle=37.967197;
-			id=1013;
-		};
-		class Item314
-		{
-			dataType="Marker";
-			position[]={15502.717,12.702961,16301.681};
-			name="TERRITORY_CENTER_POWER_PLANT";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=50;
-			b=80;
-			angle=83.320992;
-			id=1014;
-		};
-		class Item315
-		{
-			dataType="Marker";
-			position[]={21592.693,19.400345,21265.885};
-			name="TERRITORY_IRAKLIA_RUINS";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=40;
-			b=30;
-			angle=89.166656;
-			id=1015;
-		};
-		class Item316
-		{
-			dataType="Marker";
-			position[]={4556.8096,262.84003,15408.569};
-			name="TERRITORY_MAGOS_TRANSMITTER";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=60;
-			b=50;
-			angle=113.57078;
-			id=1016;
-			atlOffset=-3.0517578e-005;
-		};
-		class Item317
-		{
-			dataType="Marker";
-			position[]={14806.477,17.91,16653.357};
-			name="TERRITORY_MAIN_AIRBASE_CENTER";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=300;
-			b=300;
-			angle=43.967979;
-			id=1017;
-		};
-		class Item318
-		{
-			dataType="Marker";
-			position[]={15225.079,17.516605,17085.578};
-			name="TERRITORY_MAIN_AIRBASE_NE";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=300;
-			b=300;
-			angle=43.967979;
-			id=1018;
-		};
-		class Item319
-		{
-			dataType="Marker";
-			position[]={14387.867,18.944099,16220.769};
-			name="TERRITORY_MAIN_AIRBASE_SW";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=300;
-			b=300;
-			angle=43.968014;
-			id=1019;
-		};
-		class Item320
-		{
-			dataType="Marker";
-			position[]={26941.389,20.260515,24762.58};
-			name="TERRITORY_NE_AIRFIELD";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=100;
-			b=280;
-			angle=40.578884;
-			id=1020;
-		};
-		class Item321
-		{
-			dataType="Marker";
-			position[]={9104.8623,15.541224,21519.289};
-			name="TERRITORY_NW_AIRFIELD";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=180;
-			b=90;
-			angle=323.73181;
-			id=1021;
-		};
-		class Item322
-		{
-			dataType="Marker";
-			position[]={17429,2.341962e+038,13161};
-			name="TERRITORY_PYRGOS_TRANSMITTER";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=80;
-			b=107;
-			angle=318.31583;
-			id=1022;
-			atlOffset=2.341962e+038;
-		};
-		class Item323
-		{
-			dataType="Marker";
-			position[]={9328.2363,267.96201,19306.725};
-			name="TERRITORY_PYRSOS_TRANSMITTER";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=80;
-			b=200;
-			angle=259.332;
-			id=1023;
-		};
-		class Item324
-		{
-			dataType="Marker";
-			position[]={23144.682,3.1900001,18681.383};
-			name="TERRITORY_SALTFLATS_AIRFIELD";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=310;
-			b=90;
-			angle=269.92511;
-			id=1024;
-		};
-		class Item325
-		{
-			dataType="Marker";
-			position[]={20978.602,26.419388,7222.4941};
-			name="TERRITORY_SE_AIRFIELD";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=220;
-			b=190;
-			angle=144.13901;
-			id=1025;
-		};
-		class Item326
-		{
-			dataType="Marker";
-			position[]={4228.3799,18.116827,15052.348};
-			name="TERRITORY_WEST_POWER_PLANT";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorYellow";
-			fillName="DiagGrid";
-			a=50;
-			b=80;
-			angle=91.654846;
 			id=1026;
-		};
-		class Item327
-		{
-			dataType="Marker";
-			position[]={20895.693,2.559912,14631.808};
-			name="Sniper_14";
-			type="Empty";
-			colorName="ColorCIV";
-			id=1027;
 		};
 		class Item328
 		{
-			dataType="Marker";
-			position[]={20887.162,2.6692357,14622.937};
-			name="Mission_41";
-			type="Empty";
-			colorName="ColorOrange";
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11534,21.00881,9434};
+				angles[]={0,4.0885339,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
 			id=1028;
+			type="Land_Atm_02_F";
 		};
 		class Item329
 		{
@@ -7001,47 +7000,154 @@ class Mission
 			name="boatSpawn_26";
 			type="Empty";
 			colorName="ColorBlue";
-			id=1029;
+			id=1031;
 			atlOffset=3.6397772;
 		};
 		class Item330
-		{
-			dataType="Marker";
-			position[]={13614.645,0.00074070692,11969.72};
-			name="boatSpawn_25";
-			type="Empty";
-			colorName="ColorBlue";
-			id=1030;
-			atlOffset=5.4002328;
-		};
-		class Item331
 		{
 			dataType="Marker";
 			position[]={13384.5,0,12062};
 			name="boatSpawn_27";
 			type="Empty";
 			colorName="ColorBlue";
-			id=1031;
+			id=1032;
 			atlOffset=2.2873085;
 		};
-		class Item332
+		class Item331
 		{
 			dataType="Marker";
 			position[]={13400.5,0,12099};
 			name="boatSpawn_28";
 			type="Empty";
 			colorName="ColorBlue";
-			id=1032;
+			id=1033;
 			atlOffset=1.8546728;
+		};
+		class Item332
+		{
+			dataType="Marker";
+			position[]={13614.645,0.00074070692,11969.72};
+			name="boatSpawn_25";
+			type="Empty";
+			colorName="ColorBlue";
+			id=1034;
+			atlOffset=5.4002328;
 		};
 		class Item333
 		{
 			dataType="Marker";
-			position[]={23637.541,3.1900001,18666.268};
+			position[]={20895.693,2.559912,14631.808};
+			name="Sniper_14";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1035;
+		};
+		class Item334
+		{
+			dataType="Marker";
+			position[]={20887.162,2.6692357,14622.937};
+			name="Mission_42";
+			type="Empty";
+			colorName="ColorOrange";
+			id=1036;
+		};
+		class Item335
+		{
+			dataType="Marker";
+			position[]={11533.839,83.346893,7100.0078};
 			name="Sniper_15";
 			type="Empty";
 			colorName="ColorCIV";
-			id=1033;
+			id=1037;
+		};
+		class Item336
+		{
+			dataType="Marker";
+			position[]={11584.123,77.574799,7051.1079};
+			name="Sniper_16";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1039;
+		};
+		class Item337
+		{
+			dataType="Marker";
+			position[]={11656.8,254.4944,7579.5171};
+			name="Sniper_17";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1040;
+		};
+		class Item338
+		{
+			dataType="Marker";
+			position[]={10710.045,242.55313,7610.6123};
+			name="Sniper_18";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1041;
+		};
+		class Item339
+		{
+			dataType="Marker";
+			position[]={9949.3369,120.24725,7865.541};
+			name="Sniper_19";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1042;
+		};
+		class Item340
+		{
+			dataType="Marker";
+			position[]={8916.4902,67.278191,7479.8438};
+			name="Sniper_20";
+			type="Empty";
+			colorName="ColorCIV";
+			id=1043;
+		};
+		class Item341
+		{
+			dataType="Marker";
+			position[]={8471.3877,0,7257.8799};
+			name="SunkenMission_9";
+			type="Empty";
+			colorName="ColorWhite";
+			id=1044;
+			atlOffset=5.1956134;
+		};
+		class Item342
+		{
+			dataType="Marker";
+			position[]={8476.6904,0,7444.376};
+			name="SunkenMission_12";
+			type="Empty";
+			colorName="ColorWhite";
+			id=1045;
+			atlOffset=3.5797901;
+		};
+		class Item343
+		{
+			dataType="Marker";
+			position[]={5473.5,6.2148257e+024,15001};
+			name="TERRITORY_ESTADIO";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=79;
+			angle=38.862995;
+			id=1046;
+			atlOffset=6.2148257e+024;
+		};
+		class Item344
+		{
+			dataType="Marker";
+			position[]={14156,77.327995,21255.5};
+			name="heliSpawn_24";
+			type="Empty";
+			colorName="ColorGreen";
+			id=1047;
 		};
 	};
 };
