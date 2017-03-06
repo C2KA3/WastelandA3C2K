@@ -149,7 +149,7 @@ launcherArray = compileFinal str
 [
 	["RPG-7", "launch_RPG7_F", 7000],
 	["RPG-42 Alamut", "launch_RPG32_F", 10000],
-	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"],
+	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"]
 	//["PCML", "launch_NLAW_F", 15000]
 	//["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
 	//["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
