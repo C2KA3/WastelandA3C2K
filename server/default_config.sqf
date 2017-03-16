@@ -28,7 +28,7 @@ A3W_startingMoney = 5000;          // Amount of money that players start with
 A3W_maxMoney = 1000000;            // Maximum amount of money that will save on players and crates
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
-A3W_bleedingTime = 180;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
+A3W_bleedingTime = 120;            // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
 //A3W_headshotNoRevive = 1;        // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 A3W_customDeathMessages = 1;       // If difficulty option deathMessages=0, display custom messages related to causes of death, as defined in fn_deathMessage.sqf (0 = no, 1 = yes)
 A3W_healthTime = 7*60;             // Seconds till death once starving or dehydrated
@@ -44,7 +44,7 @@ A3W_maxSpawnBeacons = 1;           // Maxmimum number of spawn beacons (0 = disa
 // Antihack settings
 A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI units (0 = no, 1 = yes) - disable if you have custom unit scripts/mods like AI recruitment or ALiVE
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
-A3W_fastMovementLog = 1;           // Enable fast movement check (0 = no, 1 = yes)
+A3W_fastMovementLog = 0;           // Enable fast movement check (0 = no, 1 = yes)
 A3W_fastMovementLogDist = 1000;    // Number of meters in loop before logged
 A3W_fastMovementLoopTime = 1;      // Number of seconds before loop check
 
@@ -161,7 +161,7 @@ A3W_simpleLoot = 0;                // Spawn loot in all buildings (0 = no, 1 = y
 A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
 A3W_payrollInterval = 15*60;       // Delay in seconds between each payroll
-A3W_payrollAmount = 2500;          // Amount of money rewarded per territory on each payroll
+A3W_payrollAmount = 1500;          // Amount of money rewarded per territory on each payroll
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
