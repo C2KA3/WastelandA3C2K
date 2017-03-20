@@ -21,7 +21,7 @@ _tradercount = 1;
 //min distance from other traders in meters, dont go to higher than _spawnarea/(_tradercount+1) or script will just revert back to this amount to avoid problems 
 _mindist = 6000;
 //marker text for traders
-_markertext = "CRAZY TO KILL Store";
+_markertext = "CRAZY TO KILL STORE";
 //texture on the flag (has to be 200x200), "" to disable
 _flagtexture = "mapConfig\logo.paa";
 //texture on the sign, "" to disable
