@@ -21,7 +21,7 @@ if !(player getVariable ["performingDuty", false]) then
 			titleText [format ["ERROR: invalid class '%1'", _mineType], "PLAIN", 0.5];
 		};
 
-		if (["Detonate explosive charge?", "", "Yes", "No"] call BIS_fnc_guiMessage) then
+		if (["Do you want to use explosive charge?", "Confirm", "Yes", true] call BIS_fnc_guiMessage) then
 		{
 			player setVariable ["performingDuty", true];
 
@@ -58,7 +58,18 @@ if !(player getVariable ["performingDuty", false]) then
 			};
 
 			player setVariable ["performingDuty", nil];
+		}
+		else
+		{
+			player allowDamage true;
+
+			if (damage player < 1) then // if check required to prevent "Killed" EH from getting triggered twice
+			{
+				player setVariable ["A3W_deathCause_local", ["bleedout"]];
+				player setDamage 1;
+			};
 		};
+
 	}
 	else
 	{
@@ -68,7 +79,7 @@ if !(player getVariable ["performingDuty", false]) then
 
 			if (damage player < 1) then // if check required to prevent "Killed" EH from getting triggered twice
 			{
-				player setVariable ["A3W_deathCause_local", ["suicide"]];
+				player setVariable ["A3W_deathCause_local", ["bleedout"]];
 				player setDamage 1;
 			};
 		};
