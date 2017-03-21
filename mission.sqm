@@ -92,8 +92,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Altis v1.3b";
-		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
+		briefingName="A3Wasteland Altis v1.3b | Web: CLANC2K.COM.BR | RESTART 00h 03h 06h 09h 12h 15h 18h 21h";
+		overviewText="CLAN C2K | Web: CLANC2K.com.br | TS: ts3.CLANC2K.com.br";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
