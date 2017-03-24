@@ -71,7 +71,7 @@ briefing = 0; // if 0, skip Continue button
 
 #include "addons\JTS_PM\PM_Compact.hpp"
 #include "addons\taw_vd\dialog.hpp"
-#include "addons\scripts\infiSTAR_AdminMenu.hpp"
+#include "infiSTAR_AdminMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
 #include "scarCODE\SimpleAmmoRepacker\hpp\RscDisplaySimpleAmmoRepacker.hpp" // Simples Ammo reembalador
