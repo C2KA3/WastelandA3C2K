@@ -60,6 +60,29 @@ if (_mode isEqualTo 0) then
 	_aiKiller = (!isNull _killer && !isPlayer _killer && isNil {_killer getVariable "cmoney"});
 
 	[1, _victimName, _killerName, _friendlyFire, _aiKiller, _cause] remoteExecCall ["A3W_fnc_deathMessage"];
+
+	if (_killer != "") then
+	{
+		if (_friendlyFire) then
+		{
+			[format["%1 teamkilled %2", _killer, _victim]] call MAR_fnc_log;
+		}
+		else
+		{
+			[format["%1 killed %2", _killer, _victim]] call MAR_fnc_log;
+		};
+	}
+	else
+	{
+		if (_friendlyFire) then
+		{
+			[format["%1 was teamkilled", _victim]] call MAR_fnc_log;
+		}
+		else
+		{
+			[format["%1 died", _victim]] call MAR_fnc_log;
+		};
+	};
 }
 else
 {
