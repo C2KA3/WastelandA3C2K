@@ -2,8 +2,8 @@
 Antihack & AdminTools - Christian Lorenzen - www.infiSTAR.de
 
 infiSTAR (for) A3 #2967
-Date: 29-Jan-2017 18-40-44
-Version: v0246
+Date: 21-Mar-2017 06-10-09
+Version: v0247
 Owner: leandro_santos-rj@hotmail.com
 OwnerUID: 76561197995894355
 */
