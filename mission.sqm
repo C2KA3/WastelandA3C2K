@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=142;
+	toggles=14;
 	class ItemIDProvider
 	{
 		nextID=1273;
 	};
 	class LayerIndexProvider
 	{
-		nextID=24;
+		nextID=28;
 	};
 	class Camera
 	{
-		pos[]={21579.123,23.388624,7658.7402};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={11529.394,80.304588,7051.0698};
+		dir[]={-0.95469385,-0.25655249,-0.15091144};
+		up[]={-0.25342032,0.9665249,-0.040058888};
+		aside[]={-0.1561396,7.0675742e-007,0.98775429};
 	};
 };
 binarizationWanted=0;
@@ -3876,7 +3876,7 @@ class Mission
 					name="Parking9_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59091;
+					angle=215.59088;
 					id=1267;
 					atlOffset=2.1906079e+024;
 				};
@@ -7164,8 +7164,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={11529.5,78.813133,7051.5498};
-						angles[]={0,3.8784132,0};
+						position[]={11526,78.816086,7050.5498};
+						angles[]={6.2831841,1.6795982,0.061190199};
 					};
 					side="Civilian";
 					flags=7;
