@@ -1001,7 +1001,7 @@ helicoptersArray = compileFinal str
 	["CH-67 Huron (Armed)", "B_Heli_Transport_03_F", 350000, "vehicle"], // CH-47 with 2 side miniguns
 
 	["UH-80 Ghost Hawk", "B_Heli_Transport_01_F", 450000, "vehicle"], // UH-60 Stealth with 2 side miniguns
-	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 250000, "vehicle"], // Armed AH-6
+	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 100000, "vehicle"], // Armed AH-6
 	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 325000, "vehicle"], // Armed Ka-60 with orca paintjob
 	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 375000, "vehicle"], // Armed Ka-60
 	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 430000, "vehicle"], // Armed AW159
