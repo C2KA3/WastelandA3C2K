@@ -3169,7 +3169,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=709;
 			type="Land_Atm_01_F";
@@ -3187,7 +3187,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=710;
 			type="Land_Atm_02_F";
@@ -3205,7 +3205,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=711;
 			type="Land_Atm_02_F";
@@ -3223,7 +3223,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=712;
 			type="Land_Atm_02_F";
@@ -3241,7 +3241,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=713;
 			type="Land_Atm_02_F";
@@ -3259,7 +3259,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=714;
 			type="Land_Atm_02_F";
@@ -3277,7 +3277,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=715;
 			type="Land_Atm_02_F";
@@ -3294,7 +3294,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=716;
@@ -3313,7 +3313,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=719;
@@ -3331,7 +3331,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=720;
@@ -3350,7 +3350,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=721;
@@ -3369,7 +3369,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=722;
@@ -3388,7 +3388,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=723;
@@ -3405,7 +3405,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=724;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3423,7 +3423,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=725;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3441,7 +3441,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=726;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3459,7 +3459,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=727;
 			type="Land_Cargo_Patrol_V1_F";
@@ -3495,7 +3495,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 				createAsSimpleObject=1;
 			};
 			id=729;
@@ -3514,7 +3514,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=730;
 			type="Land_Slum_House02_F";
@@ -3531,7 +3531,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=731;
 			type="Land_Slum_House02_F";
@@ -3548,7 +3548,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=733;
 			type="Land_Slum_House03_F";
@@ -3566,7 +3566,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=734;
 			type="Land_Slum_House03_F";
@@ -3582,7 +3582,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=735;
 			type="Land_Slum_House03_F";
@@ -3600,7 +3600,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=736;
 			type="Land_Slum_House01_F";
@@ -3618,7 +3618,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=737;
 			type="Land_Slum_House01_F";
@@ -3636,7 +3636,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=738;
 			type="Land_Slum_House01_F";
@@ -3653,7 +3653,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=739;
 			type="Land_StallWater_F";
@@ -3903,7 +3903,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=994;
 			type="Land_Atm_02_F";
@@ -3920,7 +3920,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=995;
 			type="Land_Atm_02_F";
@@ -6642,7 +6642,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=1260;
 			type="Land_Atm_02_F";
@@ -7241,7 +7241,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[this] call A3W_fnc_setupMissionATM";
+				init="[this] call A3W_fnc_setupMissionATM; this setVariable ['persistent', true]";
 			};
 			id=1272;
 			type="Land_Atm_02_F";
