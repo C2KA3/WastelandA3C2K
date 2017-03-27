@@ -8,11 +8,11 @@ class EditorData
 	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=1273;
+		nextID=1274;
 	};
 	class LayerIndexProvider
 	{
-		nextID=28;
+		nextID=30;
 	};
 	class Camera
 	{
@@ -32,13 +32,14 @@ addons[]=
 	"A3_Structures_F_Mil_Cargo",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Households_Slum",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"A3_Structures_F_EPA_Mil_Scrapyard"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -78,6 +79,13 @@ class AddonsMetaData
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -3693,7 +3701,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=18;
+				items=19;
 				class Item0
 				{
 					dataType="Marker";
@@ -3876,13 +3884,31 @@ class Mission
 					name="Parking9_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59088;
+					angle=215.59087;
 					id=1267;
 					atlOffset=2.1906079e+024;
 				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16805.918,21.605654,12815.935};
+						angles[]={0,3.3972483,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this] call A3W_fnc_setupMissionObject; this setVariable ['is_storage', true]; this setVariable ['persistent', true]";
+					};
+					id=1273;
+					type="Land_PaperBox_open_full_F";
+					atlOffset=0.18700027;
+				};
 			};
 			id=976;
-			atlOffset=1.095304e+024;
+			atlOffset=5.4765198e+023;
 		};
 		class Item76
 		{
