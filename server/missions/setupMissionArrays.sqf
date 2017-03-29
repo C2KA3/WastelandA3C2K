@@ -9,7 +9,7 @@ if (!isServer) exitWith {};
 MainMissions =
 [
 	// Mission filename, weight
-	["mission_ArmedDiversquad", 0.4],
+	["mission_ArmedDiversquad", 0.1],
 	["mission_Coastal_Convoy", 0.6],
 	["mission_Convoy", 0.9],
 	["mission_HostileHeliFormation", 0.5],
@@ -38,7 +38,7 @@ SideMissions =
 MoneyMissions =
 [
     ["mission_MoneyShipment", 0.8],
-	["mission_SunkenTreasure", 0.2],
+	["mission_SunkenTreasure", 0.4],
 	["mission_drugsRunners", 0.5],
 	["mission_Roadblock", 0.5],
 	["mission_TownInvasion", 0.3]

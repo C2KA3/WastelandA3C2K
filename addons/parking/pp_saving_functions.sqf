@@ -169,7 +169,7 @@ if (isServer) then {
 
     if (!isARRAY(_vehicle_data)) exitWith {
       diag_log format["ERROR: Could not retrieve vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
-      [_player, format["An error occurred, your vehicle (%2) could not be retrieved. Please report this error to clanc2k.com.br.", _vehicle_id], "Retrieval Error"] call pp_notify;
+      [_player, format["An error occurred, your vehicle (%2) could not be retrieved. Please report this error to A3Armory.com.", _vehicle_id], "Retrieval Error"] call pp_notify;
     };
 
     //def(_position);

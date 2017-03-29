@@ -35,7 +35,7 @@ switch (true) do
 {
 	case (_obj call _isBox):
 	{
-		_variables pushBack ["cmoney", (_obj getVariable ["cmoney", 0]) call fn_numToStr];
+		_variables pushBack ["cmoney", _obj getVariable ["cmoney", 0]];
 	};
 	case (_obj call _isWarchest):
 	{
