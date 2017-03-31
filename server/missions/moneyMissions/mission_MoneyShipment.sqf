@@ -5,6 +5,7 @@
 //	@file Name: mission_MoneyShipment.sqf
 //	@file Author: JoSchaap / routes by Del1te - (original idea by Sanjo), AgentRev
 //	@file Created: 31/08/2013 18:19
+//	#Crazy to kill custom
 
 if (!isServer) exitwith {};
 #include "moneyMissionDefines.sqf";
