@@ -155,8 +155,8 @@ launcherArray = compileFinal str
 [
 	["RPG-7", "launch_RPG7_F", 7000],
 	["RPG-42 Alamut", "launch_RPG32_F", 10000],
-	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"]
-	["PCML", "launch_NLAW_F", 15000]
+	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"],
+	["PCML", "launch_NLAW_F", 15000],
 	["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
 	["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
 	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 20000],
@@ -166,7 +166,7 @@ launcherArray = compileFinal str
 	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 20000],
 	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 20000],
 	["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 20000, "noDLC"],
-	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 20000, "noDLC"]
+	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 20000, "noDLC"]	
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray);
@@ -820,12 +820,12 @@ genItemArray = compileFinal str
 	["Square Spectacles", "G_Squares", 100, "gogg"],
 	["Tactical Glasses", "G_Tactical_Clear", 100, "gogg"],
 	["Tactical Shades", "G_Tactical_Black", 100, "gogg"],
-	["Tinted Spectacles", "G_Spectacles_Tinted", 100, "gogg"]
-	/*["Radio AN/PRC-154 2k(rifleman)", "tf_anprc154_3", 250, "item"],
+	["Tinted Spectacles", "G_Spectacles_Tinted", 100, "gogg"],
+	["Radio AN/PRC-154 2k(rifleman)", "tf_anprc154_3", 250, "item"],
 	["Radio AN/PRC148-JEM 5k(personal)", "tf_anprc148jem_4", 450, "item"],
 	["Radio AN/PRC-155 (20k)", "tf_anprc155", 1000, "backpack"],
 	["Radio AN/PRC-155 (20k)Coyote", "tf_anprc155_coyote", 1200, "backpack"],
-	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 1500, "backpack"]*/
+	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 1500, "backpack"]
 ];
 
 allStoreMagazines = compileFinal str (call ammoArray + call throwputArray + call genItemArray);
