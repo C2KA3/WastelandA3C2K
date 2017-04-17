@@ -823,9 +823,9 @@ genItemArray = compileFinal str
 	["Tinted Spectacles", "G_Spectacles_Tinted", 100, "gogg"],
 	["Radio AN/PRC-154 2k(rifleman)", "tf_anprc154_3", 250, "item"],
 	["Radio AN/PRC148-JEM 5k(personal)", "tf_anprc148jem_4", 450, "item"],
-	["Radio AN/PRC-155 (20k)", "tf_anprc155", 1000, "backpack"],
-	["Radio AN/PRC-155 (20k)Coyote", "tf_anprc155_coyote", 1200, "backpack"],
-	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 1500, "backpack"]
+	["Radio AN/PRC-155 (20k)", "tf_anprc155", 500, "backpack"],
+	["Radio AN/PRC-155 (20k)Coyote", "tf_anprc155_coyote", 550, "backpack"],
+	["Radio AN/ARC-164 40k(airborne)", "tf_anarc164", 600, "backpack"]
 ];
 
 allStoreMagazines = compileFinal str (call ammoArray + call throwputArray + call genItemArray);
