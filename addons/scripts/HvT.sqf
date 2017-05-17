@@ -29,7 +29,7 @@ while {true} do
 		hint parseText ([
 			"<t color='#FF0000' size='1.5' align='center'>Alvo de alto valor</t>",
 			//profileName,
-			"<t color='#FFFFFF' shadow='1' shadowColor='#000000' align='center'>Someone has spotted you carrying a large sum of money and has marked your location on the map!</t>"
+			"<t color='#FFFFFF' shadow='1' shadowColor='#000000' align='center'>Alguém viu você carregando uma grande soma de dinheiro e marcou sua localização no mapa!</t>"
 		] joinString "<br/>");
 
 		_lastHint = diag_tickTime;
