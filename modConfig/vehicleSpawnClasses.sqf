@@ -29,9 +29,12 @@ lightMilitaryVehicles =
 //Medium Military Vehicle List - Random Spawns
 mediumMilitaryVehicles =
 [
-	"B_MRAP_01_F",
-	"O_MRAP_02_F",
-	"I_MRAP_03_F"
+	//"B_MRAP_01_F",
+	//"O_MRAP_02_F",
+	//"I_MRAP_03_F"
+	"B_G_Van_01_transport_F",
+	"B_CTRG_LSV_01_light_F",
+	"O_T_LSV_02_unarmed_F"
 ];
 
 //Water Vehicles - Random Spawns
@@ -39,8 +42,8 @@ waterVehicles =
 [
 	"C_Boat_Civil_01_F",
 	"C_Boat_Civil_01_F",
-	["C_Boat_Civil_01_police_F", "C_Boat_Civil_01_rescue_F"],
-	["B_Boat_Armed_01_minigun_F", "O_Boat_Armed_01_hmg_F", "I_Boat_Armed_01_minigun_F"]
+	["C_Boat_Civil_01_police_F", "C_Boat_Civil_01_rescue_F"]
+	//["B_Boat_Armed_01_minigun_F", "O_Boat_Armed_01_hmg_F", "I_Boat_Armed_01_minigun_F"]
 ];
 
 //Object List - Random Spawns.
@@ -56,6 +59,7 @@ staticWeaponsList =
 staticHeliList =
 [
 	"C_Heli_Light_01_civil_F",
+	"C_Heli_Light_01_civil_F",
 	"B_Heli_Light_01_F",
 	"O_Heli_Light_02_unarmed_F",
 	"I_Heli_light_03_unarmed_F"
@@ -65,18 +69,19 @@ staticHeliList =
 //Object List - Random Planes.
 staticPlaneList =
 [
-	"I_Plane_Fighter_03_dynamicLoadout_F",
+	//["B_Plane_CAS_01_F", "O_Plane_CAS_02_F"],
+	//"I_Plane_Fighter_03_AA_F",
 	"C_Plane_Civil_01_F"
 ];
 
 //Random Weapon List - Change this to what you want to spawn in cars.
 vehicleWeapons =
 [
-	["SMG_02_F", "SMG_05_F", "hgun_PDW2000_F"],
+	["SMG_01_F", "SMG_05_F", "hgun_PDW2000_F"],
 	["arifle_SDAR_F", "arifle_Mk20C_plain_F", "arifle_TRG20_F"],
 	["arifle_MXC_F", "arifle_AKS_F", "arifle_AKM_F"],
-	["arifle_SPAR_02_khk_F", "LMG_03_F"],
-	["launch_RPG7_F", "launch_RPG32_F", "launch_NLAW_F"]
+	["arifle_SPAR_02_khk_F", "LMG_03_F"]
+	//["launch_RPG7_F", "launch_RPG32_F", "launch_NLAW_F"]
 ];
 
 vehicleAddition =
@@ -88,14 +93,14 @@ vehicleAddition =
 	["H_HelmetIA", "H_HelmetB"],
 	["optic_Arco", "optic_SOS", "optic_LRPS"],
 	["optic_Hamr", "optic_DMS", "optic_Aco", "optic_ACO_grn"],
-	["optic_aco_smg", "optic_Holosight", "optic_Holosight_smg", "acc_pointer_IR"],
-	["Medikit", "FirstAidKit", "ToolKit", "MineDetector"]
+	["optic_aco_smg", "optic_Holosight", "optic_Holosight_smg", "acc_pointer_IR"]
+	//["Medikit", "FirstAidKit", "ToolKit", "MineDetector"]
 ];
 
 vehicleAddition2 =
 [
 	"DemoCharge_Remote_Mag",
-	"Titan_AA",
+	//"Titan_AA",
 	["3Rnd_UGL_FlareYellow_F", "3Rnd_UGL_FlareWhite_F"],
 	["1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", "1Rnd_Smoke_Grenade_shell"],
 	["7Rnd_408_Mag", "5Rnd_127x108_Mag", "5Rnd_127x108_APDS_Mag", "10Rnd_127x54_Mag", "10Rnd_50BW_Mag_F"],
