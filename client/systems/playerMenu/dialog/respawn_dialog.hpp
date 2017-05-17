@@ -181,7 +181,22 @@ class RespawnSelectionDialog
 			w = SwitchTeamButton_W;
 		};
 
-		/*class RspnPreloadChk: w_RscCheckBox
+		class HaloSpawnButton: RspnButton
+ 		{
+ 			idc = Halo_Spawn_Button;
+ 			onButtonClick = "";
+ 			text = "Random Halo Jump";
+ 			default = true;
+ 			
+ 			#define HalosSpawnButton_W (0.2 * X_SCALE)
+ 			#define HalosSpawnButton_X RspnLine_X 
+ 
+ 			x = HalosSpawnButton_X;
+ 			y = RspnRandomButton_Y;
+ 			w = HalosSpawnButton_W;
+ 		}; 
+
+ 		/*class RspnPreloadChk: w_RscCheckBox
 		{
 			idc = respawn_Preload_Checkbox;
 
@@ -322,19 +337,6 @@ class RespawnSelectionDialog
 			x = RspnGroupButton_X;
 			y = RspnLobbyButton_Y;
 			w = RspnGroupButton_W;
-		};
-		
-		class RandomSpawnButton2: w_RscButton
-		{
-			idc = -1;
-			onButtonClick = call spawnRandomAir;
-			text = "Salto Random";
-			sizeEx = 0.04 * TEXT_SCALE;
-
-			x = 0.330 * safezoneW + safezoneX;
-			y = 0.324 * safezoneH + safezoneY;
-			w = 0.100 * safezoneW;
-			h = 0.034 * safezoneH;
 		};
 	};
 };

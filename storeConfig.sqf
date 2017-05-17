@@ -156,17 +156,17 @@ launcherArray = compileFinal str
 	["RPG-7", "launch_RPG7_F", 7000],
 	["RPG-42 Alamut", "launch_RPG32_F", 10000],
 	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 10000, "noDLC"],
-	["PCML", "launch_NLAW_F", 15000],
-	["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 20000],
-	["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 20000],
-	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 20000],
-	["Titan MPRL Compact (Tropic)", "launch_B_Titan_short_tna_F", 20000, "noDLC"],
-	["Titan MPRL Compact (G Hex)", "launch_O_Titan_short_ghex_F", 20000, "noDLC"],
-	["Titan MPRL AA (Sand)", "launch_Titan_F", 20000],
-	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 20000],
-	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 20000],
-	["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 20000, "noDLC"],
-	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 20000, "noDLC"]	
+	["PCML", "launch_NLAW_F", 5000],
+	["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 7500],
+	["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 7500],
+	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 7500],
+	["Titan MPRL Compact (Tropic)", "launch_B_Titan_short_tna_F", 7500, "noDLC"],
+	["Titan MPRL Compact (G Hex)", "launch_O_Titan_short_ghex_F", 7500, "noDLC"],
+	["Titan MPRL AA (Sand)", "launch_Titan_F", 7500],
+	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 7500],
+	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 7500],
+	["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 7500, "noDLC"],
+	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 7500, "noDLC"]	
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray);
@@ -693,7 +693,14 @@ vestArray = compileFinal str
 	["Carrier Special Rig (Black)", "V_PlateCarrierSpec_blk", 8500, "vest"],
 	["Carrier Special Rig (MTP)", "V_PlateCarrierSpec_mtp", 8500, "vest"],
 	["Carrier Special Rig (Tropic)", "V_PlateCarrierSpec_tna_F", 8500, "vest", "noDLC"],
-	["Press Vest", "V_Press_F", -1, "vest"]
+	["Press Vest", "V_Press_F", -1, "vest"],
+	["Deck Crew Vest (Blue)", "V_DeckCrew_blue_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (Green)", "V_DeckCrew_green_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (Yellow)", "V_DeckCrew_yellow_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (Red)", "V_DeckCrew_red_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (Brown)", "V_DeckCrew_brown_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (Violet)", "V_DeckCrew_violet_F", 3500, "vest", "noDLC"],
+	["Deck Crew Vest (White)", "V_DeckCrew_white_F", 3500, "vest", "noDLC"]
 ];
 
 backpackArray = compileFinal str
@@ -946,11 +953,11 @@ landArray = compileFinal str
 
 armoredArray = compileFinal str
 [
-	["Prowler (Doorless)", "B_CTRG_LSV_01_light_F", 18000, "vehicle", "SKIPSAVE"],
-	["Prowler", "B_T_LSV_01_unarmed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Prowler HMG", "B_T_LSV_01_armed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Qilin", "O_T_LSV_02_unarmed_F", 18000, "vehicle", "SKIPSAVE"],
-	["Qilin Minigun", "O_T_LSV_02_armed_F", 18000, "vehicle", "SKIPSAVE"],	
+	["Prowler (Doorless)", "B_CTRG_LSV_01_light_F", 12000, "vehicle", "SKIPSAVE"],
+	["Prowler", "B_T_LSV_01_unarmed_F", 14000, "vehicle", "SKIPSAVE"],
+	["Prowler HMG", "B_T_LSV_01_armed_F", 20000, "vehicle", "SKIPSAVE"],
+	["Qilin", "O_T_LSV_02_unarmed_F", 16000, "vehicle", "SKIPSAVE"],
+	["Qilin Minigun", "O_T_LSV_02_armed_F", 22000, "vehicle", "SKIPSAVE"],	
 
 	["Hunter", "B_MRAP_01_F", 14000, "vehicle"],
 	["Hunter HMG", "B_MRAP_01_hmg_F", 50000, "vehicle"],
@@ -1003,7 +1010,7 @@ helicoptersArray = compileFinal str
 	["Mi-290 Taru (Medical)", "O_Heli_Transport_04_medevac_F",325000, "vehicle"],
 	["Mi-290 Taru (Repair)", "O_Heli_Transport_04_repair_F", 325000, "vehicle"],
 
-	["CH-67 Huron (Black)", "B_Heli_Transport_03_unarmed_F", 325000, "vehicle"], // CH-47
+	//["CH-67 Huron (Black)", "B_Heli_Transport_03_unarmed_F", 325000, "vehicle"], // CH-47
 	["CH-67 Huron (Armed)", "B_Heli_Transport_03_F", 350000, "vehicle"], // CH-47 with 2 side miniguns
 
 	["UH-80 Ghost Hawk", "B_Heli_Transport_01_F", 450000, "vehicle"], // UH-60 Stealth with 2 side miniguns

@@ -6,37 +6,6 @@
 //	@file Author: [404] Deadbeat, MercyfulFate, AgentRev
 //	@file Created: 20/11/2012 05:19
 
-// GoT - create a R.I.P. marker (visible for the player only) to help locate it's body
-createBodyMarker = 
-{
-	deleteMarkerLocal "deadMarker";
-	_pos = getPos (vehicle player);
-	_dMarker = createMarkerLocal ["deadMarker", _pos];
-	_dMarker setMarkerShapeLocal "ICON";
-	_dMarker setMarkerAlphaLocal 1;
-	_dMarker setMarkerPosLocal _pos;
-	_dMarker setMarkerTextLocal "R.I.P.";
-	_dMarker setMarkerColorLocal "ColorBlue";
-	_dMarker setMarkerTypeLocal "waypoint";
-	_dMarker setMarkerSizeLocal [0.6,0.6];
-	sleep 600;
-	deleteMarkerLocal _dMarker;
-};
-[] spawn createBodyMarker;
-
-[_player, _killer, _presumedKiller] spawn
-{
-	if (isServer) then
-	{
-		_this call server_PlayerDied;
-	}
-	else
-	{
-		PlayerCDeath = _this;
-		publicVariableServer "PlayerCDeath";
-	};
-};
-
 params ["_player", "_presumedKiller"];
 
 _presumedKiller = effectiveCommander _presumedKiller;
@@ -61,7 +30,7 @@ if (_killer == _player) then
 {
 	if (_deathCause isEqualTo []) then
 	{
-		_deathCause = [["suicide","drown"] select (getOxygenRemaining _player <= 0 && (getPos _player) select 2 < 0), serverTime];
+		_deathCause = [["suicide","drown"] select (getOxygenRemaining _player <= 0 && (_player modelToWorld [0,0,0]) select 2 < 0), serverTime];
 		_player setVariable ["A3W_deathCause_local", _deathCause];
 	};
 
