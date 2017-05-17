@@ -34,7 +34,7 @@ _price = (_selectionArray select _selectionNumber) select 2;
 APOC_AA_lastUsedTime = diag_tickTime;
 publicVariable "APOC_AA_lastUsedTime";
 
-_heliType = "B_Heli_Transport_03_unarmed_F";
+_heliType = "B_T_VTOL_01_armed_F";
 _center = createCenter civilian;
 _grp = createGroup civilian;
 if(isNil("_grp2"))then{_grp2 = createGroup civilian;}else{_grp2 = _grp2;};

@@ -1028,6 +1028,7 @@ planesArray = compileFinal str
 [
 	["Caesar BTT", "C_Plane_Civil_01_F", 7000, "vehicle"],
 
+	["A-143 Buzzard AA", "I_Plane_Fighter_03_dynamicLoadout_F", 670000, "vehicle", "variant_buzzardAA"],
 	["A-143 Buzzard CAS", "I_Plane_Fighter_03_dynamicLoadout_F", 720000, "vehicle", "variant_buzzardCAS"],
 
 	["A-149 Gryphon", "I_Plane_Fighter_04_F", 1200000, "vehicle"],
@@ -1036,6 +1037,7 @@ planesArray = compileFinal str
 	["F/A-181 Black Wasp", "B_Plane_Fighter_01_F", 1500000, "vehicle"],
 
 	["To-201 Shikra (Gun-Only)", "O_Plane_Fighter_02_Stealth_F", 700000, "vehicle"], // no missiles or bombs
+	["To-201 Shikra", "O_Plane_Fighter_02_F", 1500000, "vehicle"],
 
 	["A-164 Wipeout CAS", "B_Plane_CAS_01_dynamicLoadout_F", 1400000, "vehicle"],
 	["To-199 Neophron CAS", "O_Plane_CAS_02_dynamicLoadout_F", 1350000, "vehicle"],
@@ -1054,6 +1056,8 @@ planesArray = compileFinal str
 
 	["KH-3A Fenghuang Missile UAV", "O_T_UAV_04_CAS_F", 550000, "vehicle"],
 
+	["UCAV Sentinel Missile", "B_UAV_05_F", 750000, "vehicle", "variant_sentinelMissile"],
+	["UCAV Sentinel Bomber", "B_UAV_05_F", 600000, "vehicle", "variant_sentinelBomber"]
 ];
 
 boatsArray = compileFinal str
