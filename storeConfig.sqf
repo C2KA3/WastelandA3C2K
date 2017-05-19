@@ -776,9 +776,9 @@ genItemArray = compileFinal str
 	["NVG AP (Green)", "NVGogglesB_grn_F", 120000, "nvg"],
 	["Binoculars", "Binocular", 500, "binoc"],
 	["Rangefinder", "Rangefinder", 1500, "binoc"],
-	["Laser Designator (Sand)", "Laserdesignator", 350000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
-	["Laser Designator (Hex)", "Laserdesignator_02", 350000, "binoc", "noDLC"],
-	["Laser Designator (Olive)", "Laserdesignator_03", 350000, "binoc", "noDLC"],
+	["Laser Designator (Sand)", "Laserdesignator", 15000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
+	["Laser Designator (Hex)", "Laserdesignator_02", 15000, "binoc", "noDLC"],
+	["Laser Designator (Olive)", "Laserdesignator_03", 15000, "binoc", "noDLC"],
 	["Laser batteries", "Laserbatteries", 1000, "backpack"],
 	["IR Grenade", "B_IR_Grenade", 500, "mag", "WEST"],
 	["IR Grenade", "O_IR_Grenade", 500, "mag", "EAST"],
@@ -841,7 +841,8 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
-	["Camo Ammo Cache", "Box_FIA_Support_F", 250, "ammocrate"],
+	["Pier Ladder", "Land_PierLadder_F", 2500, "object"],
+	["Ammo Cache", "Box_FIA_Support_F", 2500, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
 	//["Toilet Box", "Land_ToiletBox_F", 25, "object"],
 	["Lamp Post (Harbour)", "Land_LampHarbour_F", 100, "object"],
@@ -1014,14 +1015,17 @@ helicoptersArray = compileFinal str
 	["CH-67 Huron (Armed)", "B_Heli_Transport_03_F", 350000, "vehicle"], // CH-47 with 2 side miniguns
 
 	["UH-80 Ghost Hawk", "B_Heli_Transport_01_F", 450000, "vehicle"], // UH-60 Stealth with 2 side miniguns
-	["AH-9 Pawnee", "B_Heli_Light_01_armed_F", 100000, "vehicle"], // Armed AH-6
-	["PO-30 Orca (Armed, Black)", "O_Heli_Light_02_v2_F", 325000, "vehicle"], // Armed Ka-60 with orca paintjob
-	["PO-30 Orca (Armed, Hex)", "O_Heli_Light_02_F", 375000, "vehicle"], // Armed Ka-60
-	["WY-55 Hellcat (Armed)", "I_Heli_light_03_F", 430000, "vehicle"], // Armed AW159
-	["AH-99 Blackfoot", "B_Heli_Attack_01_F", 1750000, "vehicle"], // RAH-66 with gunner
-	["Mi-48 Kajman", "O_Heli_Attack_02_F", 1000000, "vehicle"], // Mi-28 with gunner
-    ["Mi-48 Kajman Black", "O_Heli_Attack_02_black_F", 1000000, "vehicle"], // Mi-28 with gunner
-	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 350000, "vehicle"]
+	["AH-9 Pawnee (Gun-Only)", "B_Heli_Light_01_dynamicLoadout_F", 75000, "vehicle", "variant_pawneeGun"], // Armed AH-6 (no missiles)
+	["AH-9 Pawnee", "B_Heli_Light_01_dynamicLoadout_F", 100000, "vehicle", "variant_pawneeNormal"], // Armed AH-6
+	["PO-30 Orca (DAR)", "O_Heli_Light_02_dynamicLoadout_F", 325000, "vehicle", "variant_orcaDAR"], // Armed Ka-60
+	["PO-30 Orca (DAGR)", "O_Heli_Light_02_dynamicLoadout_F", 375000, "vehicle", "variant_orcaDAGR"], // Armed Ka-60, add "HIDDEN" if you don't want it, but don't remove the line!
+	
+	
+    ["WY-55 Hellcat (Armed)", "I_Heli_light_03_dynamicLoadout_F", 430000, "vehicle"], // Armed AW159
+	["AH-99 Blackfoot", "B_Heli_Attack_01_dynamicLoadout_F", 1750000, "vehicle"], // RAH-66 with gunner
+	["Mi-48 Kajman", "O_Heli_Attack_02_dynamicLoadout_F", 1000000, "vehicle"], // Mi-28 with gunner
+
+	["MQ-12 Falcon UAV", "B_T_UAV_03_F", 350000, "vehicle"] // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
 ];
 
 planesArray = compileFinal str
