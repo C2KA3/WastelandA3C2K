@@ -32,7 +32,7 @@
 	["<t color='#FF00FF'>Open magic parachute</t>", A3W_fnc_openParachute, [], 20, true, true, "", "vehicle player == player && (getPos player) select 2 > 10"],
 	
     ["<img image='client\icons\cancel.paa'/> Hide Body", "client\actions\hide.sqf", [], 1.1, false, false, "", "!isNull cursorTarget && !alive cursorTarget && {cursorTarget isKindOf 'Man' && player distance cursorTarget <= (sizeOf typeOf cursorTarget / 3) max 2}"],
-	["<img image='client\icons\health.paa'/> Heal Self", "addons\scripts\healSelf.sqf",0,0,false,false,"","((damage player)>0.01 && (damage player)<0.25499) && ('FirstAidKit' in (items player)) && (vehicle player == player)"],
+	["<img image='client\icons\health.paa'/> Heal Self", "addons\scripts\healSelf.sqf",0,0,false,false,"","((damage player)>0.01 && (damage player)<0.25499) && (vehicle player == player) && (('FirstAidKit' in items player) || ('Medikit' in items player))"],
 	["<img image='addons\spawnBeaconDetector\spawnBeaconDetector.paa'/> Spawn Beacon Detector On", "addons\spawnBeaconDetector\spawnBeaconDetector.sqf",0,-10,false,false,"","('MineDetector' in (items player)) && !spawnBeaconDetectorInProgress && vehicle player == player"],
 	["<img image='addons\spawnBeaconDetector\spawnBeaconDetector.paa'/> Spawn Beacon Detector Off", {spawnBeaconDetectorInProgress = false},0,-10,false,false,"","(spawnBeaconDetectorInProgress)"]
 ];
