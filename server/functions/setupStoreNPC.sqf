@@ -46,6 +46,7 @@ if (hasInterface) then
 		case (["VehStore", _npcName] call _startsWith):
 		{
 			_npc addAction ["<img image='client\icons\store.paa'/> Open Vehicle Store", "client\systems\vehicleStore\loadVehicleStore.sqf", [], 1, true, true, "", STORE_ACTION_CONDITION];
+			_npc addAction ["<img image='client\icons\r3f_unlock.paa'/> License Vehicle", "client\systems\selling\licenseVehicle.sqf", [], 0.97, false, true, "", STORE_ACTION_CONDITION + " && " + SELL_VEH_CONTENTS_CONDITION];
 		};
 	};
 
