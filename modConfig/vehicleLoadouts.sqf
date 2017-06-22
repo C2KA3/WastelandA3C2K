@@ -9,7 +9,6 @@
 	 1. Create new scenario in Eden, add vehicle, adjust pylon loadout, and set Object Init to: copyToClipboard str getPylonMagazines this
 	 3. Play scenario, wait until loaded, then pause game and return to Eden.
 	 4. Your pylon array is now in the clipboard, which you can paste in this file, e.g. _pylons = ["PylonMissile_Missile_AA_R73_x1","","","","","","","","","","","","",""];
-
 	Note: You can use any pylon type you want in the script, even if not shown in the editor, it should normally work! e.g. "PylonRack_12Rnd_missiles" for "B_Plane_Fighter_01_F"
 */
 
@@ -53,7 +52,17 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "amrmedXian": { _pylons = ["PylonRack_1Rnd_Missile_AGM_01_F","PylonRack_19Rnd_Rocket_Skyfire","PylonRack_19Rnd_Rocket_Skyfire","PylonRack_1Rnd_Missile_AGM_01_F"] };
-			default            { _pylons = ["","","",""] };
+			default
+			{
+				_mags =
+				[
+					["Laserbatteries", [0]]
+				];
+				_weapons =
+				[
+					["Laserdesignator_mounted", [0]]
+				];
+			};
 		};
 	};
 
@@ -172,10 +181,18 @@ switch (true) do
 	// KH-3A Fenghuang UAV
 	case (_class isKindOf "O_T_UAV_04_CAS_F"):
 	{
-		_customCode =
-		{
-			_veh setMagazineTurretAmmo ["4Rnd_LG_Jian", 2, [0]];
-		};
+		_mags =
+		[
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]],
+			["2Rnd_LG_scalpel", [0]],
+			["Laserbatteries", [0]]
+		];
+		_weapons =
+		[
+			["CMFlareLauncher", [-1]],
+			["missiles_SCALPEL", [0]],
+			["Laserdesignator_mounted", [0]]
+		];
 	};
 
 	// UCAV Sentinel
